@@ -1,38 +1,45 @@
-\contentsline {part}{I\hspace {1em}Calculus Single Variable}{5}{part.1}% 
-\contentsline {chapter}{\numberline {1}Functions}{7}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}Functions}{7}{section.1.1}% 
-\contentsline {subsection}{\numberline {1.1.1}Operations on Functions}{8}{subsection.1.1.1}% 
-\contentsline {subsection}{\numberline {1.1.2}Classes of Functions}{9}{subsection.1.1.2}% 
-\contentsline {section}{\numberline {1.2}The Exponential}{13}{section.1.2}% 
-\contentsline {section}{\numberline {1.3}Taylor series}{18}{section.1.3}% 
-\contentsline {section}{\numberline {1.4}Computing Taylor series}{19}{section.1.4}% 
-\contentsline {section}{\numberline {1.5}Convergence}{19}{section.1.5}% 
-\contentsline {section}{\numberline {1.6}Expansion points}{19}{section.1.6}% 
-\contentsline {section}{\numberline {1.7}Limits}{19}{section.1.7}% 
-\contentsline {section}{\numberline {1.8}L'Hopital's Rule}{19}{section.1.8}% 
-\contentsline {section}{\numberline {1.9}Orders of growth}{19}{section.1.9}% 
-\contentsline {chapter}{\numberline {2}Differentiation}{21}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Derivatives}{21}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}Differentiation rules}{21}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}Linearization}{21}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Higher derivatives}{21}{section.2.4}% 
-\contentsline {section}{\numberline {2.5}Optimization}{21}{section.2.5}% 
-\contentsline {section}{\numberline {2.6}Differentials}{21}{section.2.6}% 
-\contentsline {section}{\numberline {2.7}Differentiation as an operator}{21}{section.2.7}% 
-\contentsline {chapter}{\numberline {3}Integration}{23}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Antidifferentiation}{23}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Exponential growth examples}{23}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}More differential equations}{23}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}ODE Linearization}{23}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Integration by Substitution}{23}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}Integration by parts}{23}{section.3.6}% 
-\contentsline {section}{\numberline {3.7}Trigonometric substitution}{23}{section.3.7}% 
-\contentsline {section}{\numberline {3.8}Partial fractions}{23}{section.3.8}% 
-\contentsline {section}{\numberline {3.9}Definite integrals}{23}{section.3.9}% 
-\contentsline {section}{\numberline {3.10}Fundamental Theorem of Integral Calculus}{23}{section.3.10}% 
-\contentsline {section}{\numberline {3.11}Improper integrals}{23}{section.3.11}% 
-\contentsline {section}{\numberline {3.12}Trigonometric integrals}{23}{section.3.12}% 
-\contentsline {section}{\numberline {3.13}Tables and computers}{23}{section.3.13}% 
-\contentsline {chapter}{\numberline {4}Applications}{25}{chapter.4}% 
-\contentsline {chapter}{\numberline {5}Discretization}{27}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Series}{27}{section.5.1}% 
+\contentsline {part}{I\hspace {1em}Calculus Single Variable}{5}{part.1}
+\contentsline {chapter}{\numberline {1}Functions}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}Functions}{7}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Operations on Functions}{8}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Classes of Functions}{9}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}The Exponential}{13}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}A long polynomial}{14}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Properties of $e^x$}{14}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Euler's formula}{15}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}More on the long polynomial}{17}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}Taylor series}{18}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}The definition of a Taylor series at x=0}{19}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Why Taylor series matter}{20}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Taylor series as polynomial approximants}{21}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Computing Taylor series}{23}{section.1.4}
+\contentsline {section}{\numberline {1.5}Convergence}{23}{section.1.5}
+\contentsline {section}{\numberline {1.6}Expansion points}{23}{section.1.6}
+\contentsline {section}{\numberline {1.7}Limits}{23}{section.1.7}
+\contentsline {section}{\numberline {1.8}L'Hopital's Rule}{23}{section.1.8}
+\contentsline {section}{\numberline {1.9}Orders of growth}{23}{section.1.9}
+\contentsline {chapter}{\numberline {2}Differentiation}{25}{chapter.2}
+\contentsline {section}{\numberline {2.1}Derivatives}{25}{section.2.1}
+\contentsline {section}{\numberline {2.2}Differentiation rules}{25}{section.2.2}
+\contentsline {section}{\numberline {2.3}Linearization}{25}{section.2.3}
+\contentsline {section}{\numberline {2.4}Higher derivatives}{25}{section.2.4}
+\contentsline {section}{\numberline {2.5}Optimization}{25}{section.2.5}
+\contentsline {section}{\numberline {2.6}Differentials}{25}{section.2.6}
+\contentsline {section}{\numberline {2.7}Differentiation as an operator}{25}{section.2.7}
+\contentsline {chapter}{\numberline {3}Integration}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Antidifferentiation}{27}{section.3.1}
+\contentsline {section}{\numberline {3.2}Exponential growth examples}{27}{section.3.2}
+\contentsline {section}{\numberline {3.3}More differential equations}{27}{section.3.3}
+\contentsline {section}{\numberline {3.4}ODE Linearization}{27}{section.3.4}
+\contentsline {section}{\numberline {3.5}Integration by Substitution}{27}{section.3.5}
+\contentsline {section}{\numberline {3.6}Integration by parts}{27}{section.3.6}
+\contentsline {section}{\numberline {3.7}Trigonometric substitution}{27}{section.3.7}
+\contentsline {section}{\numberline {3.8}Partial fractions}{27}{section.3.8}
+\contentsline {section}{\numberline {3.9}Definite integrals}{27}{section.3.9}
+\contentsline {section}{\numberline {3.10}Fundamental Theorem of Integral Calculus}{27}{section.3.10}
+\contentsline {section}{\numberline {3.11}Improper integrals}{27}{section.3.11}
+\contentsline {section}{\numberline {3.12}Trigonometric integrals}{27}{section.3.12}
+\contentsline {section}{\numberline {3.13}Tables and computers}{27}{section.3.13}
+\contentsline {chapter}{\numberline {4}Applications}{29}{chapter.4}
+\contentsline {chapter}{\numberline {5}Discretization}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}Series}{31}{section.5.1}
