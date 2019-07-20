@@ -23,32 +23,33 @@
 \contentsline {subsection}{\numberline {1.4.6}Extra examples}{29}{subsection.1.4.6}% 
 \contentsline {subsection}{\numberline {1.4.7}Exercises}{31}{subsection.1.4.7}% 
 \contentsline {section}{\numberline {1.5}Convergence}{31}{section.1.5}% 
-\contentsline {section}{\numberline {1.6}Expansion points}{31}{section.1.6}% 
-\contentsline {section}{\numberline {1.7}Limits}{31}{section.1.7}% 
-\contentsline {section}{\numberline {1.8}L'Hopital's Rule}{31}{section.1.8}% 
-\contentsline {section}{\numberline {1.9}Orders of growth}{31}{section.1.9}% 
-\contentsline {chapter}{\numberline {2}Differentiation}{33}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Derivatives}{33}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}Differentiation rules}{33}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}Linearization}{33}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Higher derivatives}{33}{section.2.4}% 
-\contentsline {section}{\numberline {2.5}Optimization}{33}{section.2.5}% 
-\contentsline {section}{\numberline {2.6}Differentials}{33}{section.2.6}% 
-\contentsline {section}{\numberline {2.7}Differentiation as an operator}{33}{section.2.7}% 
-\contentsline {chapter}{\numberline {3}Integration}{35}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Antidifferentiation}{35}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Exponential growth examples}{35}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}More differential equations}{35}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}ODE Linearization}{35}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Integration by Substitution}{35}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}Integration by parts}{35}{section.3.6}% 
-\contentsline {section}{\numberline {3.7}Trigonometric substitution}{35}{section.3.7}% 
-\contentsline {section}{\numberline {3.8}Partial fractions}{35}{section.3.8}% 
-\contentsline {section}{\numberline {3.9}Definite integrals}{35}{section.3.9}% 
-\contentsline {section}{\numberline {3.10}Fundamental Theorem of Integral Calculus}{35}{section.3.10}% 
-\contentsline {section}{\numberline {3.11}Improper integrals}{35}{section.3.11}% 
-\contentsline {section}{\numberline {3.12}Trigonometric integrals}{35}{section.3.12}% 
-\contentsline {section}{\numberline {3.13}Tables and computers}{35}{section.3.13}% 
-\contentsline {chapter}{\numberline {4}Applications}{37}{chapter.4}% 
-\contentsline {chapter}{\numberline {5}Discretization}{39}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Series}{39}{section.5.1}% 
+\contentsline {subsection}{\numberline {1.5.1}Functions without a Taylor series}{31}{subsection.1.5.1}% 
+\contentsline {section}{\numberline {1.6}Expansion points}{36}{section.1.6}% 
+\contentsline {section}{\numberline {1.7}Limits}{36}{section.1.7}% 
+\contentsline {section}{\numberline {1.8}L'Hopital's Rule}{36}{section.1.8}% 
+\contentsline {section}{\numberline {1.9}Orders of growth}{36}{section.1.9}% 
+\contentsline {chapter}{\numberline {2}Differentiation}{37}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Derivatives}{37}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Differentiation rules}{37}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Linearization}{37}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Higher derivatives}{37}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}Optimization}{37}{section.2.5}% 
+\contentsline {section}{\numberline {2.6}Differentials}{37}{section.2.6}% 
+\contentsline {section}{\numberline {2.7}Differentiation as an operator}{37}{section.2.7}% 
+\contentsline {chapter}{\numberline {3}Integration}{39}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Antidifferentiation}{39}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Exponential growth examples}{39}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}More differential equations}{39}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}ODE Linearization}{39}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Integration by Substitution}{39}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Integration by parts}{39}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}Trigonometric substitution}{39}{section.3.7}% 
+\contentsline {section}{\numberline {3.8}Partial fractions}{39}{section.3.8}% 
+\contentsline {section}{\numberline {3.9}Definite integrals}{39}{section.3.9}% 
+\contentsline {section}{\numberline {3.10}Fundamental Theorem of Integral Calculus}{39}{section.3.10}% 
+\contentsline {section}{\numberline {3.11}Improper integrals}{39}{section.3.11}% 
+\contentsline {section}{\numberline {3.12}Trigonometric integrals}{39}{section.3.12}% 
+\contentsline {section}{\numberline {3.13}Tables and computers}{39}{section.3.13}% 
+\contentsline {chapter}{\numberline {4}Applications}{41}{chapter.4}% 
+\contentsline {chapter}{\numberline {5}Discretization}{43}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Series}{43}{section.5.1}% 

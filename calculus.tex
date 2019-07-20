@@ -4,8 +4,8 @@
 \usepackage{hyperref}
 \usepackage{amssymb}
 \usepackage{amsfonts}
-\usepackage{tcolorbox}
 \usepackage{hyperref}
+\usepackage{tcolorbox}
 \usepackage[latin1]{inputenc}
 \graphicspath{ {./images/} }
 
@@ -557,6 +557,90 @@ Thus, \[\sqrt{a_0+a_1 x+a_2 x^2+\dotsb}=\sqrt{a_0}+\frac{a_1}{2\sqrt{a_0}}x+\fra
 \end{itemize}
 
 \section{Convergence} \label{ChFunctionsSecConvergence}
+A Taylor series can be thought of as an infinite polynomial. Up until now, we have not worried about the issues that come up when adding up infinitely many things. This module deals with two main issues:
+\begin{enumerate}
+\item A function may not have a Taylor series at all;
+\item A function's Taylor series may not converge everywhere, even within the function's domain.
+\end{enumerate}
+\subsection{Functions without a Taylor series}
+The first problem is that some functions cannot be expressed in the form \[ f(x) = \sum_{k=0}^\infty c_k x^k = c_0 + c_1 x + c_2 x^2 + \dotsb \]
+Examples include $\tan$, which has vertical asymptotes, and $\ln$, which is not defined for $x \leq 0$. Polynomials are not able to capture these sorts of discontinuities and asymptotes.
+\\\textbf{The geometric series}\\
+The geometric series is an example of a Taylor series which is well behaved for some values of $x$ and nonsensical for other values of $x$. The claim is that \begin{equation*} 1+x+x^2+x^3+x^4+\dotsb = \frac{1}{1-x}, \end{equation*} for $|x|<1$.
+\begin{tcolorbox}
+\textbf{Note} This is not a formal proof, which would require a few tools and definitions we have not yet learned.\\
+Let $y = 1+x+x^2+x^3+\dotsb$. Multiplying both sides by $x$ gives
+\begin{align*} 
+y &= 1 + x + x^2 + x^3 + \dotsb 
+x y &= x + x^2 + x^3+x^4 + \dotsb 
+\end{align*}
+Now, subtracting the second equation from the first, all the terms other than 1 cancel on the right, leaving us with \[ y(1-x) = 1. \]
+Dividing by $1-x$ gives $y = \frac{1}{1-x}$.
+\end{tcolorbox}
+\textbf{Example} Compute the Taylor series for $f(x) = \frac{1}{1-x}$ directly from the definition.
+\begin{tcolorbox}
+\begin{align*} 
+f(x) &= \frac{1}{1-x} & f(0) &= 1 \\
+f'(x) &= \frac{1}{(1-x)^2} & f'(0) &= 1 \\
+f(x) &= \frac{2}{(1-x)^3} & f(0) &= 2 \\
+f(x) &= \frac{6}{(1-x)^4} & f(0) &=6. 
+\end{align*}	
+Notice the pattern that
+\begin{equation*} 
+f^{\left(k\right)}(x) = \frac{k!}{(1-x)^{k+1}}, 
+\end{equation*}	
+at least for the first few $k$. To see that the pattern continues, assume it holds for some $k$, and show that it holds for $k+1$ (this is a proof technique known as mathematical induction). If $f^{\left(k\right)}(x) = \frac{k!}{(1-x)^{k+1}}$, then
+\begin{equation*}
+f^{\left(k+1\right)}(x) = \frac{(k+1)k!}{(1-x)^{k+2}} = \frac{(k+1)!}{(1-x)^{k+2}}, 
+\end{equation*}	
+as desired. Then $f^{\left(k\right)}(0) = k!$, so according to the definition of Taylor series, it follows that	
+\begin{align*} 
+\frac{1}{1-x} &= 0! + 1!x+ \frac{2!}{2!}x^2+ \frac{3!}{3!}x^3+\dotsb
+&= 1+x+x^2+x^3+\dotsb, 
+\end{align*}
+which agrees with the above.
+\end{tcolorbox}
+\textbf{Note} The geometric series only holds when $|x|<1$. This makes sense, because if $|x|>1$, the powers of $x$ are getting bigger and bigger and so the series should not converge. If $x=1$, then the series is adding 1 infinitely many times, which diverges. If $x=-1$, then the series oscillates between 1 and 0, and hence does not converge.\\
+The takeaway is that every Taylor series has a convergence domain where the series is well-behaved, and outside that domain the series will not converge. For many functions, the domain is the whole real number line (e.g. the series for $e^x$, $\sin$, $\cos$, $\cosh$, and $\sinh$ all converge everywhere), but be aware that there are functions whose Taylor series do not converge everywhere. This will be covered more formally in \hyperref[ChSeriesConvergenceAndDivergence]{Series Convergence And Divergence}.\\
+\textbf{Example} A beam of light of intensity $L$ hits a pane of glass. Half of the light is reflected, and a third of the light is transmitted; the rest is absorbed. When a beam of light of intensity $L$ hits two parallel panes with an air gap between them, how much light is transmitted through both panes? (The following figure shows how the light gets reflected and rereflected. The first transmitted and reflected beams of light are labeled with their respective intensities. The question asks for the total of the beams of light emerging on the right side of the right pane of glass).
+\begin{center}
+\includegraphics[scale=0.5]{LightGlass}
+\end{center}
+\begin{tcolorbox}
+By labeling more of the transmitted and reflected beams of light, a pattern emerges among the beams of light on the right side of the right pane:
+\begin{center}
+	\includegraphics[scale=0.5]{LightGlassSolved}
+\end{center}
+$\frac{1}{9},\frac{1}{36},\frac{1}{144},\ldots$. Note that each beam is ($\frac{1}{4}$) the previous beam. Thus, the total light emerging on the right side of the right pane of glass is
+\begin{align*} 
+\frac{L}{9} + \frac{L}{36} + \frac{L}{144}+\dotsb \\
+&= \frac{L}{9} \left(1 + \frac{1}{4}+\frac{1}{16}+\dotsb\right) \\
+&= \frac{L}{9} \left(\frac{1}{1-1/4}\right) \\
+&= \frac{L}{9} \frac{4}{3} \\
+&= \frac{4L}{27}, 
+\end{align*}
+by using the formula for the geometric series.
+\end{tcolorbox}
+\textbf{Example} Use the Taylor series of $\frac{1}{1-x}$ to derive the Taylor series of $\ln(1+x)$. Hint: recall that $\ln(1+x) = \int \frac{1}{1+x}dx$.
+\begin{tcolorbox}
+Note that
+\begin{align*}
+\frac{1}{1+x} &= \frac{1}{1-(-x)} \\
+&= 1-x+x^2-x^3+x^4-\dotsb.
+\end{align*}
+Now, integrating gives $\int \frac{dx}{1+x} = \ln(1+x) + C$ on the one hand, and
+\begin{align*}
+\int (1-x+x^2-x^3+x^4-\dotsb) dx &= x - \frac{x^2}{2} +\frac{x^3}{3} -\dotsb \\
+&= \sum_{k=1}^\infty (-1)^{k-1}\frac{x^k}{k}, 
+\end{align*}
+on the other hand. Plugging in $x=0$ shows that $C=0$, and so
+\begin{align*}
+\ln(1+x) &= x - \frac{x^2}{2} +\frac{x^3}{3} -\dotsb \\
+&= \sum_{k=1}^\infty (-1)^{k+1}\frac{x^k}{k}. \\
+& (|x|<1) 
+\end{align*}
+Note that because this relied on the geometric series, which only holds for $|x|<1$, the same restriction holds for the Taylor series for $\ln(1+x)$.
+\end{tcolorbox}	
 \section{Expansion points} \label{ChFunctionsSecExpansionPoints}
 \section{Limits} \label{ChFunctionsSecLimits}
 \section{L'Hopital's Rule} \label{ChFunctionsSecLHopitalsRule}
