@@ -1,58 +1,69 @@
 \contentsline {part}{I\hspace {1em}Calculus Single Variable}{5}{part.1}% 
 \contentsline {chapter}{\numberline {1}Functions}{7}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Functions}{7}{section.1.1}% 
-\contentsline {subsection}{\numberline {1.1.1}Operations on Functions}{8}{subsection.1.1.1}% 
-\contentsline {subsection}{\numberline {1.1.2}Classes of Functions}{9}{subsection.1.1.2}% 
-\contentsline {section}{\numberline {1.2}The Exponential}{13}{section.1.2}% 
-\contentsline {subsection}{\numberline {1.2.1}A long polynomial}{14}{subsection.1.2.1}% 
-\contentsline {subsection}{\numberline {1.2.2}Properties of $e^x$}{14}{subsection.1.2.2}% 
-\contentsline {subsection}{\numberline {1.2.3}Euler's formula}{15}{subsection.1.2.3}% 
-\contentsline {subsection}{\numberline {1.2.4}More on the long polynomial}{17}{subsection.1.2.4}% 
-\contentsline {subsection}{\numberline {1.2.5}Exercises}{17}{subsection.1.2.5}% 
-\contentsline {section}{\numberline {1.3}Taylor series}{18}{section.1.3}% 
-\contentsline {subsection}{\numberline {1.3.1}The definition of a Taylor series at x=0}{19}{subsection.1.3.1}% 
-\contentsline {subsection}{\numberline {1.3.2}Why Taylor series matter}{20}{subsection.1.3.2}% 
-\contentsline {subsection}{\numberline {1.3.3}Taylor series as polynomial approximants}{21}{subsection.1.3.3}% 
-\contentsline {subsection}{\numberline {1.3.4}Exercises}{22}{subsection.1.3.4}% 
-\contentsline {section}{\numberline {1.4}Computing Taylor series}{23}{section.1.4}% 
-\contentsline {subsection}{\numberline {1.4.1}Substitution}{23}{subsection.1.4.1}% 
-\contentsline {subsection}{\numberline {1.4.2}Combining like terms}{24}{subsection.1.4.2}% 
-\contentsline {subsection}{\numberline {1.4.3}Hyperbolic trigonometric functions}{25}{subsection.1.4.3}% 
-\contentsline {subsection}{\numberline {1.4.4}Manipulating Taylor series}{27}{subsection.1.4.4}% 
-\contentsline {subsection}{\numberline {1.4.5}Higher Order Terms in Taylor Series}{28}{subsection.1.4.5}% 
-\contentsline {subsection}{\numberline {1.4.6}Extra examples}{29}{subsection.1.4.6}% 
-\contentsline {subsection}{\numberline {1.4.7}Exercises}{31}{subsection.1.4.7}% 
-\contentsline {section}{\numberline {1.5}Convergence}{31}{section.1.5}% 
-\contentsline {subsection}{\numberline {1.5.1}Functions without a Taylor series}{31}{subsection.1.5.1}% 
-\contentsline {subsection}{\numberline {1.5.2}Summary}{37}{subsection.1.5.2}% 
-\contentsline {subsection}{\numberline {1.5.3}Electrostatics example}{37}{subsection.1.5.3}% 
-\contentsline {subsection}{\numberline {1.5.4}Exercises}{39}{subsection.1.5.4}% 
-\contentsline {section}{\numberline {1.6}Expansion points}{40}{section.1.6}% 
-\contentsline {section}{\numberline {1.7}Limits}{40}{section.1.7}% 
-\contentsline {section}{\numberline {1.8}L'Hopital's Rule}{40}{section.1.8}% 
-\contentsline {section}{\numberline {1.9}Orders of growth}{40}{section.1.9}% 
-\contentsline {chapter}{\numberline {2}Differentiation}{41}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Derivatives}{41}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}Differentiation rules}{41}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}Linearization}{41}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Higher derivatives}{41}{section.2.4}% 
-\contentsline {section}{\numberline {2.5}Optimization}{41}{section.2.5}% 
-\contentsline {section}{\numberline {2.6}Differentials}{41}{section.2.6}% 
-\contentsline {section}{\numberline {2.7}Differentiation as an operator}{41}{section.2.7}% 
-\contentsline {chapter}{\numberline {3}Integration}{43}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Antidifferentiation}{43}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Exponential growth examples}{43}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}More differential equations}{43}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}ODE Linearization}{43}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Integration by Substitution}{43}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}Integration by parts}{43}{section.3.6}% 
-\contentsline {section}{\numberline {3.7}Trigonometric substitution}{43}{section.3.7}% 
-\contentsline {section}{\numberline {3.8}Partial fractions}{43}{section.3.8}% 
-\contentsline {section}{\numberline {3.9}Definite integrals}{43}{section.3.9}% 
-\contentsline {section}{\numberline {3.10}Fundamental Theorem of Integral Calculus}{43}{section.3.10}% 
-\contentsline {section}{\numberline {3.11}Improper integrals}{43}{section.3.11}% 
-\contentsline {section}{\numberline {3.12}Trigonometric integrals}{43}{section.3.12}% 
-\contentsline {section}{\numberline {3.13}Tables and computers}{43}{section.3.13}% 
-\contentsline {chapter}{\numberline {4}Applications}{45}{chapter.4}% 
-\contentsline {chapter}{\numberline {5}Discretization}{47}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Series}{47}{section.5.1}% 
+\contentsline {subsection}{\numberline {1.1.1}Operations on Functions}{7}{subsection.1.1.1}% 
+\contentsline {subsection}{\numberline {1.1.2}Classes of Functions}{8}{subsection.1.1.2}% 
+\contentsline {section}{\numberline {1.2}The Exponential}{11}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}A long polynomial}{12}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}Properties of $e^x$}{12}{subsection.1.2.2}% 
+\contentsline {subsection}{\numberline {1.2.3}Euler's formula}{12}{subsection.1.2.3}% 
+\contentsline {subsection}{\numberline {1.2.4}More on the long polynomial}{13}{subsection.1.2.4}% 
+\contentsline {subsection}{\numberline {1.2.5}Exercises}{14}{subsection.1.2.5}% 
+\contentsline {section}{\numberline {1.3}Taylor series}{15}{section.1.3}% 
+\contentsline {subsection}{\numberline {1.3.1}The definition of a Taylor series at x=0}{15}{subsection.1.3.1}% 
+\contentsline {subsection}{\numberline {1.3.2}Why Taylor series matter}{16}{subsection.1.3.2}% 
+\contentsline {subsection}{\numberline {1.3.3}Taylor series as polynomial approximants}{17}{subsection.1.3.3}% 
+\contentsline {subsection}{\numberline {1.3.4}Exercises}{17}{subsection.1.3.4}% 
+\contentsline {section}{\numberline {1.4}Computing Taylor series}{18}{section.1.4}% 
+\contentsline {subsection}{\numberline {1.4.1}Substitution}{18}{subsection.1.4.1}% 
+\contentsline {subsection}{\numberline {1.4.2}Combining like terms}{19}{subsection.1.4.2}% 
+\contentsline {subsection}{\numberline {1.4.3}Hyperbolic trigonometric functions}{20}{subsection.1.4.3}% 
+\contentsline {subsection}{\numberline {1.4.4}Manipulating Taylor series}{21}{subsection.1.4.4}% 
+\contentsline {subsection}{\numberline {1.4.5}Higher Order Terms in Taylor Series}{22}{subsection.1.4.5}% 
+\contentsline {subsection}{\numberline {1.4.6}Extra examples}{23}{subsection.1.4.6}% 
+\contentsline {subsection}{\numberline {1.4.7}Exercises}{24}{subsection.1.4.7}% 
+\contentsline {section}{\numberline {1.5}Convergence}{24}{section.1.5}% 
+\contentsline {subsection}{\numberline {1.5.1}Functions without a Taylor series}{24}{subsection.1.5.1}% 
+\contentsline {subsection}{\numberline {1.5.2}Summary}{28}{subsection.1.5.2}% 
+\contentsline {subsection}{\numberline {1.5.3}Electrostatics example}{29}{subsection.1.5.3}% 
+\contentsline {subsection}{\numberline {1.5.4}Exercises}{30}{subsection.1.5.4}% 
+\contentsline {section}{\numberline {1.6}Expansion points}{31}{section.1.6}% 
+\contentsline {subsection}{\numberline {1.6.1}Expansion points}{31}{subsection.1.6.1}% 
+\contentsline {subsection}{\numberline {1.6.2}Taylor polynomial for approximation}{31}{subsection.1.6.2}% 
+\contentsline {subsection}{\numberline {1.6.3}Caveat for compositions}{33}{subsection.1.6.3}% 
+\contentsline {subsection}{\numberline {1.6.4}Exercises}{34}{subsection.1.6.4}% 
+\contentsline {section}{\numberline {1.7}Limits}{34}{section.1.7}% 
+\contentsline {subsection}{\numberline {1.7.1}Definition of the limit}{34}{subsection.1.7.1}% 
+\contentsline {subsection}{\numberline {1.7.2}When limits may not exist}{35}{subsection.1.7.2}% 
+\contentsline {subsection}{\numberline {1.7.3}Continuous functions}{35}{subsection.1.7.3}% 
+\contentsline {subsection}{\numberline {1.7.4}Rules for limits}{35}{subsection.1.7.4}% 
+\contentsline {section}{\numberline {1.8}Exercises}{37}{section.1.8}% 
+\contentsline {section}{\numberline {1.9}L'Hopital's Rule}{38}{section.1.9}% 
+\contentsline {subsection}{\numberline {1.9.1}L'Hopital's rule}{38}{subsection.1.9.1}% 
+\contentsline {subsection}{\numberline {1.9.2}Other indeterminate forms}{40}{subsection.1.9.2}% 
+\contentsline {section}{\numberline {1.10}Orders of growth}{42}{section.1.10}% 
+\contentsline {chapter}{\numberline {2}Differentiation}{43}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Derivatives}{43}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Differentiation rules}{43}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Linearization}{43}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Higher derivatives}{43}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}Optimization}{43}{section.2.5}% 
+\contentsline {section}{\numberline {2.6}Differentials}{43}{section.2.6}% 
+\contentsline {section}{\numberline {2.7}Differentiation as an operator}{43}{section.2.7}% 
+\contentsline {chapter}{\numberline {3}Integration}{45}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Antidifferentiation}{45}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Exponential growth examples}{45}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}More differential equations}{45}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}ODE Linearization}{45}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Integration by Substitution}{45}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Integration by parts}{45}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}Trigonometric substitution}{45}{section.3.7}% 
+\contentsline {section}{\numberline {3.8}Partial fractions}{45}{section.3.8}% 
+\contentsline {section}{\numberline {3.9}Definite integrals}{45}{section.3.9}% 
+\contentsline {section}{\numberline {3.10}Fundamental Theorem of Integral Calculus}{45}{section.3.10}% 
+\contentsline {section}{\numberline {3.11}Improper integrals}{45}{section.3.11}% 
+\contentsline {section}{\numberline {3.12}Trigonometric integrals}{45}{section.3.12}% 
+\contentsline {section}{\numberline {3.13}Tables and computers}{45}{section.3.13}% 
+\contentsline {chapter}{\numberline {4}Applications}{47}{chapter.4}% 
+\contentsline {chapter}{\numberline {5}Discretization}{49}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Series}{49}{section.5.1}% 
