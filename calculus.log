@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.20)  21 JUL 2019 12:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.20)  21 JUL 2019 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -782,12 +782,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--129
  []
 
 [8]
-<./images/Pythagorean.png, id=409, 250.9375pt x 250.9375pt>
+<./images/Pythagorean.png, id=454, 250.9375pt x 250.9375pt>
 File: ./images/Pythagorean.png Graphic file (type png)
 <use ./images/Pythagorean.png>
 Package pdftex.def Info: ./images/Pythagorean.png  used on input line 130.
 (pdftex.def)             Requested size: 150.56364pt x 150.56364pt.
-<./images/UnitCircle.png, id=410, 321.2pt x 301.125pt>
+<./images/UnitCircle.png, id=455, 321.2pt x 301.125pt>
 File: ./images/UnitCircle.png Graphic file (type png)
 <use ./images/UnitCircle.png>
 Package pdftex.def Info: ./images/UnitCircle.png  used on input line 135.
@@ -822,7 +822,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
 
-<./images/ExpLn.png, id=415, 301.125pt x 301.125pt>
+<./images/ExpLn.png, id=460, 301.125pt x 301.125pt>
 File: ./images/ExpLn.png Graphic file (type png)
 <use ./images/ExpLn.png>
 Package pdftex.def Info: ./images/ExpLn.png  used on input line 159.
@@ -847,7 +847,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--173
 
  []
 
-<./images/PointChecking.png, id=420, 250.9375pt x 50.1875pt>
+<./images/PointChecking.png, id=465, 250.9375pt x 50.1875pt>
 File: ./images/PointChecking.png Graphic file (type png)
 <use ./images/PointChecking.png>
 Package pdftex.def Info: ./images/PointChecking.png  used on input line 178.
@@ -900,7 +900,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--264
 
  []
 
-<./images/ExponentialApproximants.png, id=438, 367.3725pt x 401.5pt>
+<./images/ExponentialApproximants.png, id=483, 367.3725pt x 401.5pt>
 File: ./images/ExponentialApproximants.png Graphic file (type png)
 <use ./images/ExponentialApproximants.png>
 Package pdftex.def Info: ./images/ExponentialApproximants.png  used on input li
@@ -924,7 +924,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 341--345
 
  []
 
-<./images/Bessel.png, id=453, 401.5pt x 250.9375pt>
+<./images/Bessel.png, id=499, 401.5pt x 250.9375pt>
 File: ./images/Bessel.png Graphic file (type png)
 <use ./images/Bessel.png>
 Package pdftex.def Info: ./images/Bessel.png  used on input line 364.
@@ -935,7 +935,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 369--371
  []
 
 [16 <./images/Bessel.png>]
-<./images/Approximants.png, id=458, 301.125pt x 301.125pt>
+<./images/Approximants.png, id=504, 301.125pt x 301.125pt>
 File: ./images/Approximants.png Graphic file (type png)
 <use ./images/Approximants.png>
 Package pdftex.def Info: ./images/Approximants.png  used on input line 372.
@@ -949,12 +949,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 427--429
 Underfull \vbox (badness 2126) has occurred while \output is active []
 
  [19]
-<./images/Hyperbolic.png, id=472, 301.125pt x 301.125pt>
+<./images/Hyperbolic.png, id=518, 301.125pt x 301.125pt>
 File: ./images/Hyperbolic.png Graphic file (type png)
 <use ./images/Hyperbolic.png>
 Package pdftex.def Info: ./images/Hyperbolic.png  used on input line 454.
 (pdftex.def)             Requested size: 180.67638pt x 180.67638pt.
-<./images/HyperbolicPlot.png, id=473, 301.125pt x 301.125pt>
+<./images/HyperbolicPlot.png, id=519, 301.125pt x 301.125pt>
 File: ./images/HyperbolicPlot.png Graphic file (type png)
 <use ./images/HyperbolicPlot.png>
 Package pdftex.def Info: ./images/HyperbolicPlot.png  used on input line 459.
@@ -987,7 +987,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 528--531
 LaTeX Warning: Hyper reference `ChSeriesConvergenceAndDivergence' on page 25 un
 defined on input line 622.
 
-<./images/LightGlass.png, id=498, 301.125pt x 401.5pt>
+<./images/LightGlass.png, id=543, 301.125pt x 401.5pt>
 File: ./images/LightGlass.png Graphic file (type png)
 <use ./images/LightGlass.png>
 Package pdftex.def Info: ./images/LightGlass.png  used on input line 625.
@@ -996,7 +996,7 @@ Package pdftex.def Info: ./images/LightGlass.png  used on input line 625.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
-<./images/LightGlassSolved.png, id=505, 351.3125pt x 451.6875pt>
+<./images/LightGlassSolved.png, id=550, 351.3125pt x 451.6875pt>
 File: ./images/LightGlassSolved.png Graphic file (type png)
 <use ./images/LightGlassSolved.png>
 Package pdftex.def Info: ./images/LightGlassSolved.png  used on input line 630.
@@ -1013,32 +1013,32 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
  [28]
-<./images/Dipole.png, id=518, 250.9375pt x 250.9375pt>
+<./images/Dipole.png, id=563, 250.9375pt x 250.9375pt>
 File: ./images/Dipole.png Graphic file (type png)
 <use ./images/Dipole.png>
 Package pdftex.def Info: ./images/Dipole.png  used on input line 722.
 (pdftex.def)             Requested size: 150.56364pt x 150.56364pt.
-<./images/DipolePositions.png, id=519, 351.3125pt x 301.125pt>
+<./images/DipolePositions.png, id=564, 351.3125pt x 301.125pt>
 File: ./images/DipolePositions.png Graphic file (type png)
 <use ./images/DipolePositions.png>
 Package pdftex.def Info: ./images/DipolePositions.png  used on input line 724.
 (pdftex.def)             Requested size: 210.78911pt x 180.67638pt.
 
 [29 <./images/Dipole.png> <./images/DipolePositions.png>] [30] [31]
-<./images/NaturalLogApproximation.png, id=533, 301.125pt x 301.125pt>
+<./images/NaturalLogApproximation.png, id=578, 301.125pt x 301.125pt>
 File: ./images/NaturalLogApproximation.png Graphic file (type png)
 <use ./images/NaturalLogApproximation.png>
 Package pdftex.def Info: ./images/NaturalLogApproximation.png  used on input li
 ne 813.
 (pdftex.def)             Requested size: 180.67638pt x 180.67638pt.
  [32 <./images/NaturalLogApproximation.png>] [33]
-<./images/Limit.png, id=542, 301.125pt x 301.125pt>
+<./images/Limit.png, id=587, 301.125pt x 301.125pt>
 File: ./images/Limit.png Graphic file (type png)
 <use ./images/Limit.png>
 Package pdftex.def Info: ./images/Limit.png  used on input line 883.
 (pdftex.def)             Requested size: 180.67638pt x 180.67638pt.
  [34 <./images/Limit.png>]
-<./images/LimitFails.png, id=547, 602.25pt x 200.75pt>
+<./images/LimitFails.png, id=592, 602.25pt x 200.75pt>
 File: ./images/LimitFails.png Graphic file (type png)
 <use ./images/LimitFails.png>
 Package pdftex.def Info: ./images/LimitFails.png  used on input line 904.
@@ -1063,42 +1063,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 1131--1132
 
  []
 
-[41] [42]
-Chapter 2.
-[43
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
 
-] [44
+ []
+
+[42] [43]
+<./images/AsymptoticMonomial.png, id=640, 301.125pt x 301.125pt>
+File: ./images/AsymptoticMonomial.png Graphic file (type png)
+<use ./images/AsymptoticMonomial.png>
+Package pdftex.def Info: ./images/AsymptoticMonomial.png  used on input line 12
+69.
+(pdftex.def)             Requested size: 180.67638pt x 180.67638pt.
+ [44] [45 <./images/AsymptoticMonomial.png>]
+<./images/OrdersOfGrowth.png, id=649, 401.5pt x 200.75pt>
+File: ./images/OrdersOfGrowth.png Graphic file (type png)
+<use ./images/OrdersOfGrowth.png>
+Package pdftex.def Info: ./images/OrdersOfGrowth.png  used on input line 1318.
+(pdftex.def)             Requested size: 240.90184pt x 120.45091pt.
+ [46 <./images/OrdersOfGrowth.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+[48]
+
+LaTeX Warning: Hyper reference `ChTaylorRemainderTheorem' on page 49 undefined 
+on input line 1435.
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1441
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1452--1453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1462--1463
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1467--1469
+
+ []
+
+[50] [51] [52
+
+]
+Chapter 2.
+[53] [54
 
 ]
 Chapter 3.
-[45] [46
+[55] [56
 
 ]
 Chapter 4.
-[47] [48
+[57] [58
 
 ]
 Chapter 5.
-[49]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1189.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1189.
+[59]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1520.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1520.
  (./calculus.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1189.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1189.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1520.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1520.
 
 Package rerunfilecheck Info: File `calculus.out' has not changed.
-(rerunfilecheck)             Checksum: F0ACB58CAEABA4423869BC4412350ACB;4738.
+(rerunfilecheck)             Checksum: E7A02BFB5EDE78BC6417D459FBFF8F13;5465.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1189.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1520.
  ) 
 Here is how much of TeX's memory you used:
- 20136 strings out of 492615
- 399344 string characters out of 6131390
+ 20218 strings out of 492615
+ 400566 string characters out of 6131390
  514383 words of memory out of 5000000
- 23574 multiletter control sequences out of 15000+600000
+ 23613 multiletter control sequences out of 15000+600000
  15887 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,12n,85p,956b,1101s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1120,10 +1167,10 @@ cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on calculus.pdf (49 pages, 537845 bytes).
+Output written on calculus.pdf (59 pages, 605841 bytes).
 PDF statistics:
- 714 PDF objects out of 1000 (max. 8388607)
- 621 compressed objects within 7 object streams
- 138 named destinations out of 1000 (max. 500000)
- 645 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 833 PDF objects out of 1000 (max. 8388607)
+ 727 compressed objects within 8 object streams
+ 179 named destinations out of 1000 (max. 500000)
+ 727 words of extra memory for PDF output out of 10000 (max. 10000000)
 
