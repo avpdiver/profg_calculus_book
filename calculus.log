@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.20)  21 JUL 2019 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.20)  21 JUL 2019 21:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -582,24 +582,24 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 19.
+Package hyperref Info: Option `colorlinks' set `true' on input line 18.
  (./calculus.aux)
 \openout1 = `calculus.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -666,7 +666,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring ON on input line 41.
+Package hyperref Info: Link coloring ON on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -676,21 +676,21 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count144
 )
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
 
 (./calculus.out) (./calculus.out)
 \@outlinefile=\write6
 \openout6 = `calculus.out'.
 
  ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 44.
+LaTeX Font Info:    Try loading font information for U+msa on input line 43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 44.
+LaTeX Font Info:    Try loading font information for U+msb on input line 43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -708,240 +708,240 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [6]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--57
+Underfull \hbox (badness 10000) in paragraph at lines 53--56
 
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 60--62
+Underfull \hbox (badness 1320) in paragraph at lines 59--61
 \OT1/cmr/m/n/10 Answer: For $[]$ and $[]$: do-main is $\U/msb/m/n/10 R$\OT1/cmr
 /m/n/10 ; range is $[]$. For $[]$, the do-main is
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 66--68
+Underfull \hbox (badness 1024) in paragraph at lines 65--67
 \OT1/cmr/m/n/10 Answer: $[]$ is not a func-tion, be-cause one in-put has many o
 ut-puts. For ex-am-ple,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--82
+Underfull \hbox (badness 10000) in paragraph at lines 73--81
 
  []
 
 [7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 88--92
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--97
+Underfull \hbox (badness 10000) in paragraph at lines 92--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--111
+Underfull \hbox (badness 10000) in paragraph at lines 106--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--111
+Underfull \hbox (badness 10000) in paragraph at lines 106--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--129
+Underfull \hbox (badness 10000) in paragraph at lines 110--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--129
+Underfull \hbox (badness 10000) in paragraph at lines 110--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--129
+Underfull \hbox (badness 10000) in paragraph at lines 110--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--129
+Underfull \hbox (badness 10000) in paragraph at lines 110--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--129
+Underfull \hbox (badness 10000) in paragraph at lines 110--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--129
+Underfull \hbox (badness 10000) in paragraph at lines 110--128
 
  []
 
 [8]
-<./images/Pythagorean.png, id=479, 250.9375pt x 250.9375pt>
+<./images/Pythagorean.png, id=499, 250.9375pt x 250.9375pt>
 File: ./images/Pythagorean.png Graphic file (type png)
 <use ./images/Pythagorean.png>
-Package pdftex.def Info: ./images/Pythagorean.png  used on input line 130.
+Package pdftex.def Info: ./images/Pythagorean.png  used on input line 129.
 (pdftex.def)             Requested size: 150.56364pt x 150.56364pt.
-<./images/UnitCircle.png, id=480, 321.2pt x 301.125pt>
+<./images/UnitCircle.png, id=500, 321.2pt x 301.125pt>
 File: ./images/UnitCircle.png Graphic file (type png)
 <use ./images/UnitCircle.png>
-Package pdftex.def Info: ./images/UnitCircle.png  used on input line 135.
+Package pdftex.def Info: ./images/UnitCircle.png  used on input line 134.
 (pdftex.def)             Requested size: 192.72148pt x 180.67638pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--152
+Underfull \hbox (badness 10000) in paragraph at lines 136--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--152
+Underfull \hbox (badness 10000) in paragraph at lines 136--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--152
+Underfull \hbox (badness 10000) in paragraph at lines 136--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--152
+Underfull \hbox (badness 10000) in paragraph at lines 136--151
 
  []
 
 [9 <./images/Pythagorean.png> <./images/UnitCircle.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 153--155
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
+Underfull \hbox (badness 10000) in paragraph at lines 155--157
 
  []
 
-<./images/ExpLn.png, id=485, 301.125pt x 301.125pt>
+<./images/ExpLn.png, id=506, 301.125pt x 301.125pt>
 File: ./images/ExpLn.png Graphic file (type png)
 <use ./images/ExpLn.png>
-Package pdftex.def Info: ./images/ExpLn.png  used on input line 159.
+Package pdftex.def Info: ./images/ExpLn.png  used on input line 158.
 (pdftex.def)             Requested size: 180.67638pt x 180.67638pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--168
+Underfull \hbox (badness 10000) in paragraph at lines 160--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--168
+Underfull \hbox (badness 10000) in paragraph at lines 160--167
 
  []
 
 [10 <./images/ExpLn.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 169--173
+Underfull \hbox (badness 10000) in paragraph at lines 168--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--173
+Underfull \hbox (badness 10000) in paragraph at lines 168--172
 
  []
 
-<./images/PointChecking.png, id=490, 250.9375pt x 50.1875pt>
+<./images/PointChecking.png, id=511, 250.9375pt x 50.1875pt>
 File: ./images/PointChecking.png Graphic file (type png)
 <use ./images/PointChecking.png>
-Package pdftex.def Info: ./images/PointChecking.png  used on input line 178.
+Package pdftex.def Info: ./images/PointChecking.png  used on input line 177.
 (pdftex.def)             Requested size: 150.56364pt x 30.11272pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--182
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--198
+Underfull \hbox (badness 10000) in paragraph at lines 188--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
 [11 <./images/PointChecking.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 209.
+(hyperref)                removing `math shift' on input line 208.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 209.
+(hyperref)                removing `superscript' on input line 208.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 209.
+(hyperref)                removing `math shift' on input line 208.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--254
+Underfull \hbox (badness 10000) in paragraph at lines 243--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--254
+Underfull \hbox (badness 10000) in paragraph at lines 243--253
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 258--264
+Underfull \hbox (badness 10000) in paragraph at lines 257--263
 
  []
 
-<./images/ExponentialApproximants.png, id=509, 367.3725pt x 401.5pt>
+<./images/ExponentialApproximants.png, id=529, 367.3725pt x 401.5pt>
 File: ./images/ExponentialApproximants.png Graphic file (type png)
 <use ./images/ExponentialApproximants.png>
 Package pdftex.def Info: ./images/ExponentialApproximants.png  used on input li
-ne 284.
+ne 283.
 (pdftex.def)             Requested size: 220.42519pt x 240.90184pt.
 [13]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 290.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 289.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 290.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 289.
  [14 <./images/ExponentialApproximants.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 325--330
+Underfull \hbox (badness 10000) in paragraph at lines 324--329
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 341--345
+Underfull \hbox (badness 10000) in paragraph at lines 340--344
 
  []
 
-<./images/Bessel.png, id=524, 401.5pt x 250.9375pt>
+<./images/Bessel.png, id=544, 401.5pt x 250.9375pt>
 File: ./images/Bessel.png Graphic file (type png)
 <use ./images/Bessel.png>
-Package pdftex.def Info: ./images/Bessel.png  used on input line 364.
+Package pdftex.def Info: ./images/Bessel.png  used on input line 363.
 (pdftex.def)             Requested size: 240.90184pt x 150.56364pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--371
+Underfull \hbox (badness 10000) in paragraph at lines 368--370
 
  []
 
 [16 <./images/Bessel.png>]
-<./images/Approximants.png, id=529, 301.125pt x 301.125pt>
+<./images/Approximants.png, id=549, 301.125pt x 301.125pt>
 File: ./images/Approximants.png Graphic file (type png)
 <use ./images/Approximants.png>
-Package pdftex.def Info: ./images/Approximants.png  used on input line 372.
+Package pdftex.def Info: ./images/Approximants.png  used on input line 371.
 (pdftex.def)             Requested size: 180.67638pt x 180.67638pt.
  [17 <./images/Approximants.png>] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 427--429
+Underfull \hbox (badness 10000) in paragraph at lines 426--428
 
  []
 
@@ -949,18 +949,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 427--429
 Underfull \vbox (badness 2126) has occurred while \output is active []
 
  [19]
-<./images/Hyperbolic.png, id=543, 301.125pt x 301.125pt>
+<./images/Hyperbolic.png, id=563, 301.125pt x 301.125pt>
 File: ./images/Hyperbolic.png Graphic file (type png)
 <use ./images/Hyperbolic.png>
-Package pdftex.def Info: ./images/Hyperbolic.png  used on input line 454.
+Package pdftex.def Info: ./images/Hyperbolic.png  used on input line 453.
 (pdftex.def)             Requested size: 180.67638pt x 180.67638pt.
-<./images/HyperbolicPlot.png, id=544, 301.125pt x 301.125pt>
+<./images/HyperbolicPlot.png, id=564, 301.125pt x 301.125pt>
 File: ./images/HyperbolicPlot.png Graphic file (type png)
 <use ./images/HyperbolicPlot.png>
-Package pdftex.def Info: ./images/HyperbolicPlot.png  used on input line 459.
+Package pdftex.def Info: ./images/HyperbolicPlot.png  used on input line 458.
 (pdftex.def)             Requested size: 180.67638pt x 180.67638pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--467
+Underfull \hbox (badness 10000) in paragraph at lines 463--466
 
  []
 
@@ -968,38 +968,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 464--467
 Underfull \vbox (badness 1708) has occurred while \output is active []
 
  [21]
-Underfull \hbox (badness 10000) in paragraph at lines 508--510
+Underfull \hbox (badness 10000) in paragraph at lines 507--509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--512
+Underfull \hbox (badness 10000) in paragraph at lines 509--511
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 528--531
+Underfull \hbox (badness 10000) in paragraph at lines 527--530
 
  []
 
 [22] [23] [24]
 
 LaTeX Warning: Hyper reference `ChSeriesConvergenceAndDivergence' on page 25 un
-defined on input line 622.
+defined on input line 621.
 
-<./images/LightGlass.png, id=568, 301.125pt x 401.5pt>
+<./images/LightGlass.png, id=588, 301.125pt x 401.5pt>
 File: ./images/LightGlass.png Graphic file (type png)
 <use ./images/LightGlass.png>
-Package pdftex.def Info: ./images/LightGlass.png  used on input line 625.
+Package pdftex.def Info: ./images/LightGlass.png  used on input line 624.
 (pdftex.def)             Requested size: 180.67638pt x 240.90184pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
-<./images/LightGlassSolved.png, id=575, 351.3125pt x 451.6875pt>
+<./images/LightGlassSolved.png, id=595, 351.3125pt x 451.6875pt>
 File: ./images/LightGlassSolved.png Graphic file (type png)
 <use ./images/LightGlassSolved.png>
-Package pdftex.def Info: ./images/LightGlassSolved.png  used on input line 630.
+Package pdftex.def Info: ./images/LightGlassSolved.png  used on input line 629.
 
 (pdftex.def)             Requested size: 210.78911pt x 271.01459pt.
 
@@ -1007,79 +1007,79 @@ Package pdftex.def Info: ./images/LightGlassSolved.png  used on input line 630.
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 684.
+(amsmath)                 on input line 683.
 
 
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
  [28]
-<./images/Dipole.png, id=588, 250.9375pt x 250.9375pt>
+<./images/Dipole.png, id=608, 250.9375pt x 250.9375pt>
 File: ./images/Dipole.png Graphic file (type png)
 <use ./images/Dipole.png>
-Package pdftex.def Info: ./images/Dipole.png  used on input line 722.
+Package pdftex.def Info: ./images/Dipole.png  used on input line 721.
 (pdftex.def)             Requested size: 150.56364pt x 150.56364pt.
-<./images/DipolePositions.png, id=589, 351.3125pt x 301.125pt>
+<./images/DipolePositions.png, id=609, 351.3125pt x 301.125pt>
 File: ./images/DipolePositions.png Graphic file (type png)
 <use ./images/DipolePositions.png>
-Package pdftex.def Info: ./images/DipolePositions.png  used on input line 724.
+Package pdftex.def Info: ./images/DipolePositions.png  used on input line 723.
 (pdftex.def)             Requested size: 210.78911pt x 180.67638pt.
 
 [29 <./images/Dipole.png> <./images/DipolePositions.png>] [30] [31]
-<./images/NaturalLogApproximation.png, id=603, 301.125pt x 301.125pt>
+<./images/NaturalLogApproximation.png, id=624, 301.125pt x 301.125pt>
 File: ./images/NaturalLogApproximation.png Graphic file (type png)
 <use ./images/NaturalLogApproximation.png>
 Package pdftex.def Info: ./images/NaturalLogApproximation.png  used on input li
-ne 813.
+ne 812.
 (pdftex.def)             Requested size: 180.67638pt x 180.67638pt.
  [32 <./images/NaturalLogApproximation.png>] [33]
-<./images/Limit.png, id=612, 301.125pt x 301.125pt>
+<./images/Limit.png, id=633, 301.125pt x 301.125pt>
 File: ./images/Limit.png Graphic file (type png)
 <use ./images/Limit.png>
-Package pdftex.def Info: ./images/Limit.png  used on input line 883.
+Package pdftex.def Info: ./images/Limit.png  used on input line 882.
 (pdftex.def)             Requested size: 180.67638pt x 180.67638pt.
  [34 <./images/Limit.png>]
-<./images/LimitFails.png, id=618, 602.25pt x 200.75pt>
+<./images/LimitFails.png, id=638, 602.25pt x 200.75pt>
 File: ./images/LimitFails.png Graphic file (type png)
 <use ./images/LimitFails.png>
-Package pdftex.def Info: ./images/LimitFails.png  used on input line 904.
+Package pdftex.def Info: ./images/LimitFails.png  used on input line 903.
 (pdftex.def)             Requested size: 361.35278pt x 120.45091pt.
  [35 <./images/LimitFails.png>] [36] [37] [38] [39]
-Underfull \hbox (badness 10000) in paragraph at lines 1087--1089
+Underfull \hbox (badness 10000) in paragraph at lines 1086--1088
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1087--1089
+Underfull \hbox (badness 10000) in paragraph at lines 1086--1088
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1104--1105
+Underfull \hbox (badness 10000) in paragraph at lines 1103--1104
 
  []
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 1131--1132
+Underfull \hbox (badness 10000) in paragraph at lines 1130--1131
 
  []
 
 [41]
-Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
+Underfull \hbox (badness 10000) in paragraph at lines 1156--1157
 
  []
 
 [42] [43]
-<./images/AsymptoticMonomial.png, id=665, 301.125pt x 301.125pt>
+<./images/AsymptoticMonomial.png, id=685, 301.125pt x 301.125pt>
 File: ./images/AsymptoticMonomial.png Graphic file (type png)
 <use ./images/AsymptoticMonomial.png>
 Package pdftex.def Info: ./images/AsymptoticMonomial.png  used on input line 12
-69.
+68.
 (pdftex.def)             Requested size: 180.67638pt x 180.67638pt.
  [44] [45 <./images/AsymptoticMonomial.png>]
-<./images/OrdersOfGrowth.png, id=674, 401.5pt x 200.75pt>
+<./images/OrdersOfGrowth.png, id=694, 401.5pt x 200.75pt>
 File: ./images/OrdersOfGrowth.png Graphic file (type png)
 <use ./images/OrdersOfGrowth.png>
-Package pdftex.def Info: ./images/OrdersOfGrowth.png  used on input line 1318.
+Package pdftex.def Info: ./images/OrdersOfGrowth.png  used on input line 1317.
 (pdftex.def)             Requested size: 240.90184pt x 120.45091pt.
  [46 <./images/OrdersOfGrowth.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1088,25 +1088,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [48]
 
 LaTeX Warning: Hyper reference `ChTaylorRemainderTheorem' on page 49 undefined 
-on input line 1435.
+on input line 1434.
 
 [49]
-Underfull \hbox (badness 10000) in paragraph at lines 1440--1441
+Underfull \hbox (badness 10000) in paragraph at lines 1439--1440
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1452--1453
+Underfull \hbox (badness 10000) in paragraph at lines 1451--1452
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1462--1463
+Underfull \hbox (badness 10000) in paragraph at lines 1461--1462
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1467--1469
+Underfull \hbox (badness 10000) in paragraph at lines 1466--1468
 
  []
 
@@ -1119,75 +1119,205 @@ Underfull \vbox (badness 1221) has occurred while \output is active []
 
  [53]
 [54]
-Underfull \hbox (badness 10000) in paragraph at lines 1594--1596
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1595
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1598--1600
+Underfull \hbox (badness 10000) in paragraph at lines 1597--1599
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1602--1604
+Underfull \hbox (badness 10000) in paragraph at lines 1601--1603
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1608--1610
+Underfull \hbox (badness 10000) in paragraph at lines 1607--1609
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1612--1614
+Underfull \hbox (badness 10000) in paragraph at lines 1611--1613
 
  []
 
 [55]
-Underfull \hbox (badness 10000) in paragraph at lines 1616--1618
+Underfull \hbox (badness 10000) in paragraph at lines 1615--1617
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1620--1622
+Underfull \hbox (badness 10000) in paragraph at lines 1619--1621
 
  []
 
-[56] [57] [58
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 1641--1642
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1641--1642
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1644--1645
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1644--1645
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1647--1648
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1647--1648
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1651--1653
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1665--1667
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1675--1677
+
+ []
+
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 1695--1696
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1711--1712
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1714--1715
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1717--1718
+
+ []
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 1722--1723
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1725--1726
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1735--1736
+
+ []
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 1777--1778
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1777--1778
+
+ []
+
+<./images/Boundary.png, id=776, 301.125pt x 301.125pt>
+File: ./images/Boundary.png Graphic file (type png)
+<use ./images/Boundary.png>
+Package pdftex.def Info: ./images/Boundary.png  used on input line 1780.
+(pdftex.def)             Requested size: 180.67638pt x 180.67638pt.
+[60 <./images/Boundary.png>]
+<./images/CartesianProduct.png, id=781, 301.125pt x 250.9375pt>
+File: ./images/CartesianProduct.png Graphic file (type png)
+<use ./images/CartesianProduct.png>
+Package pdftex.def Info: ./images/CartesianProduct.png  used on input line 1785
+.
+(pdftex.def)             Requested size: 180.67638pt x 150.56364pt.
+<./images/BoundaryProduct.png, id=782, 306.14375pt x 301.125pt>
+File: ./images/BoundaryProduct.png Graphic file (type png)
+<use ./images/BoundaryProduct.png>
+Package pdftex.def Info: ./images/BoundaryProduct.png  used on input line 1790.
+
+(pdftex.def)             Requested size: 183.68765pt x 180.67638pt.
+<./images/BoundaryProductCylinder.png, id=783, 301.125pt x 200.75pt>
+File: ./images/BoundaryProductCylinder.png Graphic file (type png)
+<use ./images/BoundaryProductCylinder.png>
+Package pdftex.def Info: ./images/BoundaryProductCylinder.png  used on input li
+ne 1793.
+(pdftex.def)             Requested size: 180.67638pt x 120.45091pt.
+ [61 <./images/CartesianProduct.png> <./images/BoundaryProduct.png> <./images/B
+oundaryProductCylinder.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1799--1800
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1799--1800
+
+ []
+
+<./images/ListDelete.png, id=789, 301.125pt x 301.125pt>
+File: ./images/ListDelete.png Graphic file (type png)
+<use ./images/ListDelete.png>
+Package pdftex.def Info: ./images/ListDelete.png  used on input line 1802.
+(pdftex.def)             Requested size: 180.67638pt x 180.67638pt.
+[62 <./images/ListDelete.png>] [63] [64
 
 ]
 Chapter 3.
-[59] [60
+[65] [66
 
 ]
 Chapter 4.
-[61] [62
+[67] [68
 
 ]
 Chapter 5.
-[63]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1662.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1662.
+[69]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1863.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1863.
  (./calculus.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1662.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1662.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1863.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1863.
 
 Package rerunfilecheck Info: File `calculus.out' has not changed.
-(rerunfilecheck)             Checksum: 5647A0246B536FA980E17109862026CF;5836.
+(rerunfilecheck)             Checksum: 934FFF5FC195EF4FDB4A08F1A5F7BD92;6098.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1662.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1863.
  ) 
 Here is how much of TeX's memory you used:
- 20239 strings out of 492615
- 400876 string characters out of 6131390
- 514383 words of memory out of 5000000
- 23625 multiletter control sequences out of 15000+600000
+ 20285 strings out of 492615
+ 401901 string characters out of 6131390
+ 514445 words of memory out of 5000000
+ 23656 multiletter control sequences out of 15000+600000
  15887 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,12n,85p,956b,1101s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,14n,85p,1038b,1101s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy5.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr
@@ -1206,10 +1336,10 @@ cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on calculus.pdf (63 pages, 624856 bytes).
+Output written on calculus.pdf (69 pages, 691845 bytes).
 PDF statistics:
- 878 PDF objects out of 1000 (max. 8388607)
- 768 compressed objects within 8 object streams
- 188 named destinations out of 1000 (max. 500000)
- 767 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 930 PDF objects out of 1000 (max. 8388607)
+ 808 compressed objects within 9 object streams
+ 198 named destinations out of 1000 (max. 500000)
+ 824 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -59,25 +59,29 @@
 \contentsline {subsection}{\numberline {2.1.4}Examples with respect to other variables}{55}{subsection.2.1.4}% 
 \contentsline {subsection}{\numberline {2.1.5}Exercises}{56}{subsection.2.1.5}% 
 \contentsline {section}{\numberline {2.2}Differentiation rules}{57}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}Linearization}{57}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Higher derivatives}{57}{section.2.4}% 
-\contentsline {section}{\numberline {2.5}Optimization}{57}{section.2.5}% 
-\contentsline {section}{\numberline {2.6}Differentials}{57}{section.2.6}% 
-\contentsline {section}{\numberline {2.7}Differentiation as an operator}{57}{section.2.7}% 
-\contentsline {chapter}{\numberline {3}Integration}{59}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Antidifferentiation}{59}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Exponential growth examples}{59}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}More differential equations}{59}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}ODE Linearization}{59}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Integration by Substitution}{59}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}Integration by parts}{59}{section.3.6}% 
-\contentsline {section}{\numberline {3.7}Trigonometric substitution}{59}{section.3.7}% 
-\contentsline {section}{\numberline {3.8}Partial fractions}{59}{section.3.8}% 
-\contentsline {section}{\numberline {3.9}Definite integrals}{59}{section.3.9}% 
-\contentsline {section}{\numberline {3.10}Fundamental Theorem of Integral Calculus}{59}{section.3.10}% 
-\contentsline {section}{\numberline {3.11}Improper integrals}{59}{section.3.11}% 
-\contentsline {section}{\numberline {3.12}Trigonometric integrals}{59}{section.3.12}% 
-\contentsline {section}{\numberline {3.13}Tables and computers}{59}{section.3.13}% 
-\contentsline {chapter}{\numberline {4}Applications}{61}{chapter.4}% 
-\contentsline {chapter}{\numberline {5}Discretization}{63}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Series}{63}{section.5.1}% 
+\contentsline {subsection}{\numberline {2.2.1}Differentiation rules}{57}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Other rules}{58}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}Bonus}{60}{subsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.2.4}Exercises}{62}{subsection.2.2.4}% 
+\contentsline {section}{\numberline {2.3}Linearization}{63}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Higher derivatives}{63}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}Optimization}{63}{section.2.5}% 
+\contentsline {section}{\numberline {2.6}Differentials}{63}{section.2.6}% 
+\contentsline {section}{\numberline {2.7}Differentiation as an operator}{63}{section.2.7}% 
+\contentsline {chapter}{\numberline {3}Integration}{65}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Antidifferentiation}{65}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Exponential growth examples}{65}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}More differential equations}{65}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}ODE Linearization}{65}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Integration by Substitution}{65}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Integration by parts}{65}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}Trigonometric substitution}{65}{section.3.7}% 
+\contentsline {section}{\numberline {3.8}Partial fractions}{65}{section.3.8}% 
+\contentsline {section}{\numberline {3.9}Definite integrals}{65}{section.3.9}% 
+\contentsline {section}{\numberline {3.10}Fundamental Theorem of Integral Calculus}{65}{section.3.10}% 
+\contentsline {section}{\numberline {3.11}Improper integrals}{65}{section.3.11}% 
+\contentsline {section}{\numberline {3.12}Trigonometric integrals}{65}{section.3.12}% 
+\contentsline {section}{\numberline {3.13}Tables and computers}{65}{section.3.13}% 
+\contentsline {chapter}{\numberline {4}Applications}{67}{chapter.4}% 
+\contentsline {chapter}{\numberline {5}Discretization}{69}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Series}{69}{section.5.1}% 
