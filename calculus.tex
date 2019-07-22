@@ -2242,7 +2242,62 @@ p &= \pm 10.
 So $R$ has critical point $p=10$ (ignore $p<0$ since price should be positive). The second derivative is $R(p) = -60p$. Thus $R(10) = -600<0$, and $p=10$ is a local maximum.
 At this price, the revenue is \[ R(10) = 2000 \cdot 10 = 20000. \]
 \end{examplebox}
-				
+
+\subsection{Global Extrema}				
+
+While a local maximum or minimum is sometimes useful information, what is usually more important is the global maximum and minimum values of a function on a closed interval $\left[a,b\right]$ (or subject to some other constraint such as $x \geq 0$). These are called the global extrema, or absolute extrema, of a function.
+
+Global extrema on the interval $\left[a,b\right]$ either occur at critical points of $f$ or at the endpoints of the interval. So in addition to finding the critical points of $f$ in the interval and checking their values, one must also evaluate $f$ at the endpoints of the interval to find the global extrema.
+\bigbreak
+\textbf{Example} Find the global extrema of $f(x) = x^3 - 6x^2+9x-5$ on the interval $\left[2,4\right]$.
+\begin{examplebox}
+From the prior examples, $x=1$ and $x=3$ are the critical points of $f$. But $x=1$ is not in the interval $\left[2,4\right]$, so disregard it. Then evaluate $f$ at 2,3,4 to find the extreme values:
+\begin{align*}
+f(2)&=8-24+18-5=-3 \\
+f(3) &= 27-54+27-5=-5 \\
+f(4) &= 64-96+36-5 = -1.
+\end{align*}
+Thus the absolute maximum is $-1$ and occurs when $x=4$. The absolute minimum is $-5$ and occurs at $x=3$.	
+\end{examplebox}
+
+\subsection{Application: Statistics}
+
+In statistics, one often takes experimental data points of the form $(x_i,y_i)$ and looks for a relationship. A very simple relationship is the linear relationship $y = mx$. The data may not follow this relationship perfectly, and there may be some slight experimental error or other noise, so one tries to find the value of $m$ which best fits the data:
+\begin{center}\includegraphics[scale=0.6]{DataPlot}\end{center}
+
+This process, called a linear regression, can be framed as an optimization problem. But what is the quantity being optimized?
+
+There are several different linear regression models, depending on the quantity being minimized. These different quantities yield different best fit lines. One of the most common models is called ordinary least squares. This method seeks to minimize the sum of the squares of the residuals, which are the vertical distances from the points to the line:
+\begin{center}\includegraphics[scale=0.6]{Residuals}\end{center}
+
+As shown above, the residual for a given point $(x_i,y_i)$ is $y_i - mx_i$. Thus, the quantity being minimized is \[ S(m) = \sum_i (y_i - mx_i)^2. \]
+
+Taking the derivative with respect to $m$ gives
+\begin{align*} 
+\frac{dS}{dm} &= \sum_i 2(y_i - mx_i)(-x_i) \\
+&= \sum_i \left(-2x_iy_i + 2mx_i^2 \right) \\
+&= -2 \sum_i x_i y_i + 2m \sum_i x_i^2.
+\end{align*}
+
+Setting this equal to 0 and solving for $m$ gives \[ m = \frac{\displaystyle \sum_i x_i y_i}{\displaystyle \sum_i x_i^2}. \]
+
+Applying the second derivative test, we compute \[ \frac{d^2S}{dm^2} = 2 \sum_i x^2_i > 0, \] so the above value of $m$ minimizes the sum of squares (hence the least squares name).
+\bigbreak
+\textbf{Note} To find the line of best fit of the form $y = mx+b$ requires methods of multivariable calculus (because there are two variables, $m$ and $b$, which need to be optimized). Optimization with multiple variables is not much more difficult than for a single variable, but these methods are beyond the scope of this course.
+
+\subsection{Exercises}
+\begin{itemize}
+\item 
+\item 
+\item 
+\item 
+\item 
+\item 
+\item 
+\item 
+\item 
+\item 
+\end{itemize}
 \section{Differentials} \label{ChDifferentiationSecDifferentials}
 \section{Differentiation as an operator} \label{ChDifferentiationSecDifferentiationAsAnOperator}
 
