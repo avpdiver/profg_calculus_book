@@ -69,23 +69,28 @@
 \contentsline {subsection}{\numberline {2.3.3}Newton's method}{66}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Exercises}{68}{subsection.2.3.4}
 \contentsline {section}{\numberline {2.4}Higher derivatives}{69}{section.2.4}
-\contentsline {section}{\numberline {2.5}Optimization}{69}{section.2.5}
-\contentsline {section}{\numberline {2.6}Differentials}{69}{section.2.6}
-\contentsline {section}{\numberline {2.7}Differentiation as an operator}{69}{section.2.7}
-\contentsline {chapter}{\numberline {3}Integration}{71}{chapter.3}
-\contentsline {section}{\numberline {3.1}Antidifferentiation}{71}{section.3.1}
-\contentsline {section}{\numberline {3.2}Exponential growth examples}{71}{section.3.2}
-\contentsline {section}{\numberline {3.3}More differential equations}{71}{section.3.3}
-\contentsline {section}{\numberline {3.4}ODE Linearization}{71}{section.3.4}
-\contentsline {section}{\numberline {3.5}Integration by Substitution}{71}{section.3.5}
-\contentsline {section}{\numberline {3.6}Integration by parts}{71}{section.3.6}
-\contentsline {section}{\numberline {3.7}Trigonometric substitution}{71}{section.3.7}
-\contentsline {section}{\numberline {3.8}Partial fractions}{71}{section.3.8}
-\contentsline {section}{\numberline {3.9}Definite integrals}{71}{section.3.9}
-\contentsline {section}{\numberline {3.10}Fundamental Theorem of Integral Calculus}{71}{section.3.10}
-\contentsline {section}{\numberline {3.11}Improper integrals}{71}{section.3.11}
-\contentsline {section}{\numberline {3.12}Trigonometric integrals}{71}{section.3.12}
-\contentsline {section}{\numberline {3.13}Tables and computers}{71}{section.3.13}
-\contentsline {chapter}{\numberline {4}Applications}{73}{chapter.4}
-\contentsline {chapter}{\numberline {5}Discretization}{75}{chapter.5}
-\contentsline {section}{\numberline {5.1}Series}{75}{section.5.1}
+\contentsline {subsection}{\numberline {2.4.1}Interpretations}{69}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Bonus: Another look at Taylor series}{73}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Exercises}{73}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Optimization}{73}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Critical points}{73}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Classifying critical points}{74}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Differentials}{77}{section.2.6}
+\contentsline {section}{\numberline {2.7}Differentiation as an operator}{77}{section.2.7}
+\contentsline {chapter}{\numberline {3}Integration}{79}{chapter.3}
+\contentsline {section}{\numberline {3.1}Antidifferentiation}{79}{section.3.1}
+\contentsline {section}{\numberline {3.2}Exponential growth examples}{79}{section.3.2}
+\contentsline {section}{\numberline {3.3}More differential equations}{79}{section.3.3}
+\contentsline {section}{\numberline {3.4}ODE Linearization}{79}{section.3.4}
+\contentsline {section}{\numberline {3.5}Integration by Substitution}{79}{section.3.5}
+\contentsline {section}{\numberline {3.6}Integration by parts}{79}{section.3.6}
+\contentsline {section}{\numberline {3.7}Trigonometric substitution}{79}{section.3.7}
+\contentsline {section}{\numberline {3.8}Partial fractions}{79}{section.3.8}
+\contentsline {section}{\numberline {3.9}Definite integrals}{79}{section.3.9}
+\contentsline {section}{\numberline {3.10}Fundamental Theorem of Integral Calculus}{79}{section.3.10}
+\contentsline {section}{\numberline {3.11}Improper integrals}{79}{section.3.11}
+\contentsline {section}{\numberline {3.12}Trigonometric integrals}{79}{section.3.12}
+\contentsline {section}{\numberline {3.13}Tables and computers}{79}{section.3.13}
+\contentsline {chapter}{\numberline {4}Applications}{81}{chapter.4}
+\contentsline {chapter}{\numberline {5}Discretization}{83}{chapter.5}
+\contentsline {section}{\numberline {5.1}Series}{83}{section.5.1}

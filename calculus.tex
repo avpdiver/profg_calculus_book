@@ -2029,7 +2029,220 @@ If we compare this to the answer from a calculator, we find that $\sqrt[3]{100} 
 \end{itemize}		
 
 \section{Higher derivatives} \label{ChDifferentiationSecHigherDerivatives}
+
+The $n$th derivative of a function $f(x)$, denoted $f^{\left(n\right)}(x)$ or $\frac{d^n}{dx^n}(f)$, is defined recursively by
+\begin{align*}
+f^{\left(n\right)}(x) &= \frac{d}{dx}f^{\left(n-1\right)}(x). 
+\end{align*}
+
+In other words, the $n$th derivative is what one gets by taking the derivative $n$ times. Note that in the $\frac{d}{dx}$ notation, the power $n$ goes to the right of $dx$, to emphasize the fact that the $n$th derivative of $f$ is achieved by iterating $n$ times the operator $\frac{d}{dx}$. So \[ \left( \frac{d}{dx}\right)^n f = \frac{d^n}{dx^n} f. \]
+
+\subsection{Interpretations}
+
+Let $x(t)$ denote the position of a moving body as a function of time. Then the velocity $v(t)$ of the body is \[ v(t) = \frac{dx}{dt}. \]
+
+The acceleration of an object is the second derivative of its position function (i.e. the derivative of its velocity): \[ a(t) = \frac{dv}{dt} = \frac{d}{dt}\left(\frac{dx}{dt}\right) = \frac{d^2x}{dt^2}. \]
+
+The jerk of an object is the third derivative of its position function (i.e. the derivative of its acceleration): \[ j(t) = \frac{d^3x}{dt^3}. \]
+
+The snap (or jounce) of an object is the fourth derivative of its position: \[ s(t) = \frac{d^4x}{dt^4}. \]
+\bigbreak
+\textbf{Quadrotors}\\
+
+The maneuverability of nano quadrotors depends on controlling both the jerk and the snap (in addition to velocity and acceleration).
+\bigbreak
+\textbf{Curvature}\\
+
+In geometry, curvature can (informally) be thought of as how quickly the graph of the function curves. Consider the largest circle that can comfortably sit tangent to the graph of $f$ at the point $a$. Intuitively, the larger the radius $R$ of the circle that fits, the smaller the curvature. Here is a curve with several of these circles (called osculating circles) drawn it at different indicated points.
+\begin{center}\includegraphics[scale=0.6]{Curvature}\end{center}
+
+In fact, the curvature of a curve $f$, denoted $\kappa$, is defined by $\kappa = \frac{1}{R}$, where $R$ is the radius of the largest circle which fits the curve to second order. With some algebra, one finds the following expression for curvature in terms of the first and second derivatives of $f$:
+
+\begin{definitionbox}[title=\textbf{Curvature of a function $f$}]
+	\[ \kappa = \frac{|f''|}{(1+(f')^2)^{3/2}}. \]
+\end{definitionbox}
+	
+\begin{examplebox}
+For a given point on the curve, draw its osculating circle, say of radius $R$ (right now, $R$ is unknown to us;we will eventually find $R$). Then place the coordinate axes so that the origin is at the center of the circle (note that the curvature at a given point only depends on the radius of the osculating circle, which is independent of where the axes are placed):
+\begin{center}\includegraphics[scale=0.6]{Osculating}\end{center}
+The equation of the osculating circle is $x^2+y^2 = R^2$. Solving for $y$ gives \[ y = \sqrt{R^2-x^2} = (R^2-x^2)^{1/2}, \] whose first and second derivatives should respectively match the first and second derivatives of the function $f$ at the point (that is what it means for the circle to match the function up to second order). Remember that the first derivative and second derivative of $f$ at the given point are just constants. We will set the derivative and second derivative of the equation of the circle equal to these constants, respectively, and then solve for $R$.
+
+The first derivative of the equation of the circle is 
+\begin{align*}
+\frac{d}{dx} (R^2-x^2)^{1/2} &= \frac{1}{2}(R^2-x^2)^{-1/2}(-2x) \\
+&= -x(R^2-x^2)^{-1/2}. 
+\end{align*}
+
+The second derivative of the equation of the circle (using the product rule) is
+\begin{align*}
+\frac{d}{dx} \left(-x(R^2-x^2)^{-1/2} \right) &= -(R^2-x^2)^{-1/2} - x \left(-\frac{1}{2}\right)(R^2-x^2)^{-3/2}(-2x) \\
+&= -(R^2-x^2)^{-1/2} - x^2 (R^2-x^2)^{-3/2} \\
+&= - \frac{1}{(R^2-x^2)^{1/2}} - \frac{x^2}{(R^2-x^2)^{3/2}} \\
+&= - \frac{\left(R^2-x^2\right)}{(R^2-x^2)^{3/2}} - \frac{x^2}{(R^2-x^2)^{3/2}} \\
+&= \frac{-R^2}{(R^2-x^2)^{3/2}} \\
+&= -R^2 (R^2-x^2)^{-3/2}.
+\end{align*}
+
+So setting the corresponding derivatives of $f$ equal to the derivatives of the circle gives
+\begin{align*}
+f' &= -x(R^2 - x^2)^{-1/2} \\
+f'' &= -R^2(R^2-x^2)^{-3/2}. 
+\end{align*}
+
+Now we do some algebra to solve for $R$ in terms of $f'$ and $f''$. Squaring the first equation gives \[ (f')^2 = x^2(R^2-x^2)^{-1}. \]
+
+Solving this equation for $x^2$ gives \[ x^2 = \frac{(f')^2 R^2}{1+(f')^2}. \]
+
+Plugging this into the second equation, and doing some algebra gives
+\begin{align*}
+f'' &= -R^2(R^2-x^2)^{-3/2} \\
+&= -R^2 \left( R^2 - \frac{(f')^2 R^2}{1+(f')^2} \right)^{-3/2} \\
+&= -R^2 \left[ R^2 \left(1-\frac{(f')^2}{1+(f')^2} \right)\right]^{-3/2} \\
+&= \frac{-R^2}{R^3} \left(\frac{1+(f')^2 - (f')^2}{1+(f')^2}\right)^{-3/2} \\
+&= -\frac{1}{R} \left(1+(f')^2 \right)^{3/2}.
+\end{align*}
+
+Taking absolute values (since the radius of a circle should not be negative) gives \[ |f''| = \frac{1}{R} \left(1+(f')^2 \right)^{3/2}. \]
+
+Now, solving for $\kappa = \frac{1}{R}$ gives
+\begin{align*}
+\kappa = \frac{1}{R} = \frac{|f''|}{(1+(f')^2)^{3/2}},
+\end{align*}
+as desired.
+\end{examplebox}		
+
+Note that for a straight line, the second derivative $f''=0$, and so $\kappa = 0$, which matches intuition. In this case, the osculating circle is infinite. Similarly, $\kappa=0$ at inflection points of $f$.
+\bigbreak
+\textbf{Elasticity}\\
+
+Consider an elastic beam with uniform cross section and static load $q(x)$, where $x$ is the location of the load along the beam. Then the deflection $u(x)$ (the amount the beam sags at location $x$) satisfies the equation \[ EI \frac{d^4u}{dx^4} = q(x), \] where $E$ and $I$ are constants: $E$ is the constant of elasticity (depends on the material), and $I$ is the moment of inertia (depends on the shape of the beam).
+\bigbreak
+\textbf{Taylor series}\\
+
+As seen in previous modules, information about the derivatives of a function evaluated at a single point gives information about the function for inputs near that point via the Taylor series:
+\[ f(x) = f(a) + f'(a)(x-a) + \frac{f(a)}{2!} (x-a)^2 + \frac{f'(a)}{3!}(x-a)^3 + \dotsb \]
+
+Taking a few terms of this series gives a polynomial which is a good approximation of $f$ near $a$. The more derivatives one knows, the more terms one can include in the series, and the better the approximation.
+
+\subsection{Bonus: Another look at Taylor series}
+
+Consider the alternative way to express the Taylor series, in terms of the distance $h$ from the base point $a$:
+\begin{align*}
+f(a+h) &= f(a) + f'(a)h + \frac{f(a)}{2!}h^2 + \frac{f'(a)}{3!}h^3 + \dotsb \\
+&= \sum_{k=0}^\infty \frac{f^{\left(k\right)}(a)}{k!}h^k \\
+&= \sum_{k=0}^\infty \frac{h^k}{k!} \left(\frac{d}{dx} \bigg|_a \right)^k f \\
+&= \sum_{k=0}^\infty \frac{1}{k!} \left(h \frac{d}{dx} \bigg|_a \right)^k f. 
+\end{align*}
+
+Note that this resembles the Taylor series for the exponential $e^x$, where \[ x = h \frac{d}{dx} \bigg|_a. \]
+
+This may seem a little unusual. But the idea of exponentiating an operator to get another operator is a useful tool, which comes up in other areas of mathematics. In this notation, we can write \[ f(a+h) = e^{\left(h\left.\frac{d}{dx}\right|_a\right)} f. \]
+
+Another way to think of this is that $e^{h \frac{d}{dx}}$ is the shift operator, which takes in the function $f(x)$ and gives back the function $f(x+h)$.
+
+\subsection{Exercises}
+\begin{itemize}
+\item You are given the position, velocity and acceleration of a particle at time $t = 0$. The position is $p(0) = 2$, the velocity $v(0) = 4$, and the acceleration $a(0) = 3$. Using this information, which Taylor series should they use to approximate $p(t)$, and what is the estimated value of $p(4)$ using this approximation?
+\item If a particle moves according to the position function $s(t) = t^3-6t$, what are its position, velocity and acceleration at $t=3$?
+\item If the position of a car at time $t$ is given by the formula $p(t) = t^4 - 24t^2$, for which times $t$ is its velocity decreasing?
+\item What is a formula for the second derivative of $f(t) = t^2\sin 2t$? Use this formula to compute $f''(\pi/2)$.
+\item Use a Taylor series expansion to compute the third derivative of $f(x) = \sin^3 \left(\ln(1+x) \right)$ at zero.
+\item What is the curvature of the graph of the function $f(x) = -2\sin(x^2)$ at the point $(0,0)$?
+\end{itemize}
+
 \section{Optimization} \label{ChDifferentiationSecOptimization}
+
+One of the most important applications of derivatives is optimization. In some introductory calculus classes these types of problems are called max/min problems: given a function, what is the maximum or minimum output subject to some constraints. This module will review how derivatives can be used in these problems and give some of the reasons why these methods work.
+
+\subsection{Critical points}
+
+First, observe that for a differentiable function $f$, if the derivative is not zero at a point, then that point cannot be a maximum or a minimum. For instance, if the derivative is positive, then the output is increasing with respect to the input, so by increasing the input, one can increase the output. Hence, the point is not a maximum. If the derivative is negative, then decreasing the input will increase the output, so that point cannot be a maximum.
+\begin{center}\includegraphics[scale=0.6]{MaxMin}\end{center}
+
+Similarly, a point cannot be a minimum if the derivative is not zero. Thus, the only possible inputs where a maximum or minimum can occur are those where the derivative is zero. This motivates the following definition
+\begin{definitionbox}[title=\textbf{Critical point}]
+A critical point of a function $f$ is an input $x=a$ where either $f'(a)=0$ or where the derivative is undefined.
+\end{definitionbox}
+
+Critical points include maximum and minimum points (called extrema) as well as inflection points; these are the points where the derivative is 0. Other critical points occur at corner points or discontinuities, where the derivative is undefined. The reason for including points where the derivative is not defined is that such a point could be a maximum or minimum:
+\begin{center}\includegraphics[scale=0.6]{CriticalPoints}\end{center}
+\bigbreak
+\textbf{Example} Compute the critical points of $f(x) = x^3 - 6x^2+9x-5$. 
+\begin{examplebox}
+The derivative $f'(x) = 3x^2 - 12x+9$ is defined everywhere, so the critical points are where $f'(x)=0$. Since
+\begin{align*}
+f'(x) &= 3x^2-12x+9 \\
+&= 3(x^2-4x+3) \\
+&= 3(x-3)(x-1),
+\end{align*}
+the critical points are $x=3$ and $x=1$.
+\end{examplebox}
+	
+\subsection{Classifying critical points}
+
+Once one has computed a critical points $x=a$, one can classify whether it is a maximum or minimum using the second derivative test:
+
+\begin{definitionbox}[title=\textbf{Second Derivative Test}]
+Suppose $x=a$ is a critical point of $f$ where $f'(a)=0$.
+\begin{enumerate}
+\item If $f''(a)>0$, then $f$ has a local minimum at $a$.
+\item If $f''(a)<0$, then $f$ has a local maximum at $a$.
+\item If $f''(a)=0$, then the test fails.
+\end{enumerate}	
+In the third case, one can use the Taylor expansion about $x=a$ to determine the behavior of the function. In this case, $x=a$ could still be a local maximum, minimum, or inflection point.
+\end{definitionbox}
+	
+\begin{examplebox}
+The second derivative test is justified by considering the Taylor series for $f$ about $x=a$:
+\begin{align*}
+f(x) &= f(a) + f'(a)(x-a) + \frac{1}{2}f(a)(x-a)^2+\dotsb \\
+&= f(a) + \frac{1}{2}f(a)(x-a)^2 + \dotsb,
+\end{align*}
+since $f'(a)=0$. Thus, when $x$ is close to $a$, $f(x)$ behaves like a parabola centered at $x=a$. Recall that the sign of the coefficient of the square term in a parabola determines if the parabola opens up or down. A positive coefficient means the parabola opens upward, and a negative coefficient means the parabola opens downward.
+Here, the coefficient of the $(x-a)^2$ is $\frac{1}{2}f(a)$. So if $f(a)>0$, then the parabola opens upward, meaning $f(a)$ is a local minimum of $f$. If $f(a)<0$, then the parabola opens downward, meaning $f(a)$ is a local maximum of $f$. If $f(a)=0$, then one has to look at more terms of the Taylor series to determine $f$'s behavior at $a$.	
+\end{examplebox}	
+\bigbreak
+\textbf{Example} Use the Taylor series about $x=0$ for \[ \sin^2x \ln(\cos x) \] to determine whether the function has a local maximum, local minimum, or inflection point at $x=0$. (Take as a given that $x=0$ is a critical point).
+\begin{examplebox}
+Expanding and multiplying the Taylor series gives
+\begin{align*}
+\sin^2 x \ln (\cos x) &= \left( x+ O(x^3) \right)^2 \ln \left( 1 - \frac{1}{2!}x^2 + O(x^4) \right) \\
+&= (x + O(x^3))(x+ O(x^3)) \left(-\frac{1}{2}x^2 + O(x^4)\right) \\
+&= -\frac{1}{2}x^4 + O(x^6). 
+\end{align*}
+Thus, near $x=0$ the function behaves like $-\frac{1}{2}x^4$, which is downward opening (because of the negative coefficient) and U shaped (because it is an even power). Therefore, the function has a local maximum at $x=0$.
+Note that the second derivative test, besides being tricky to apply with all of the product rules and chain rules, would ultimately be inconclusive in this example.	
+\end{examplebox}
+\bigbreak
+\textbf{Example} Consider a square sheet of cardboard of side length $L$. By cutting equal sized squares of side length $x$ from each corner of the sheet and folding up the flaps which are formed, one gets an open box:
+\begin{center}\includegraphics[scale=0.6]{BoxMax}\end{center}
+Note that as $x$ gets bigger, the box gets taller but the area of the base of the box shrinks. As $x$ gets smaller, the area of the base grows, but the height shrinks. Find the value of $x$ which maximizes the volume of the resulting box.
+\begin{examplebox}
+The volume of the box is the area of the base times the height. The base is a square of side length $L - 2x$ (since $x$ has been cut from both sides). The height of the box is $x$. Thus \[ V = (L-2x)^2 \cdot x = 4x^3 - 4Lx^2+L^2x \]
+Finding the critical points means taking the derivative with respect to $x$ and setting equal to 0: \[ \frac{dV}{dx} = 12x^2 - 8Lx + L^2 = 0. \]
+This factors as \[ (6x-L)(2x-L) = 0, \] so the critical points are $x = \frac{L}{6}$ and $x = \frac{L}{2}$. To apply the second derivative test, we compute \[ \frac{d^2V}{dx^2} = 24x - 8L \] and evaluate at each critical point: \[ \frac{d^2V}{dx^2} \bigg|_{x = L/2} = 4L > 0 \quad \hbox{and} \quad \frac{d^2V}{dx^2} \bigg|_{x = L/6} = -4L < 0. \]
+Thus, $x = \frac{L}{2}$ is a local minimum and $x = \frac{L}{6}$ is a local maximum. (Note also that for $x = \frac{L}{2}$ there is no cardboard left, since the removed corners have consumed the entire square!).
+The volume that results from $x = \frac{L}{6}$ is \[ V = \left(\frac{2L}{3}\right)^2 \frac{L}{6} = \frac{2L^3}{27}. \]
+\end{examplebox}
+\bigbreak
+\textbf{Example} Classify the critical points of $f(x) = x^3 - 6x^2+9x-5$.
+\begin{examplebox}
+As found in a previous example, the critical points of $f$ are $x=3$ and $x=1$. The second derivative of $f$ is $f(x) = 6x-12$. Thus, $f(3) = 6>0$ and $f''(1) = -6<0$, and it follows from the second derivative test that 3 is a local minimum of $f$, and 1 is a local maximum of $f$.
+\end{examplebox}	
+\bigbreak
+\textbf{Example} Suppose a firm producing widgets expects to sell $3000-10p^2$ units (where $p$ is the price of the unit). What price $p$ should the firm set to maximize revenue (note that revenue here is just price times quantity sold)?			
+\begin{examplebox}
+Revenue is $R(p) = (3000-10p^2)p = 3000p-10p^3$. Taking the derivative gives $R'(p) = 3000-30p^2$, and setting equal to 0 gives
+\begin{align*}
+3000-30p^2 &= 0 \\
+3000 &= 30p^2 \\
+100 &= p^2 \\
+p &= \pm 10. 
+\end{align*}
+So $R$ has critical point $p=10$ (ignore $p<0$ since price should be positive). The second derivative is $R(p) = -60p$. Thus $R(10) = -600<0$, and $p=10$ is a local maximum.
+At this price, the revenue is \[ R(10) = 2000 \cdot 10 = 20000. \]
+\end{examplebox}
+				
 \section{Differentials} \label{ChDifferentiationSecDifferentials}
 \section{Differentiation as an operator} \label{ChDifferentiationSecDifferentiationAsAnOperator}
 

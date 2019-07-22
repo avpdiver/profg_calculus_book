@@ -69,23 +69,28 @@
 \BOOKMARK [2][-]{subsection.2.3.3}{Newton's method}{section.2.3}% 69
 \BOOKMARK [2][-]{subsection.2.3.4}{Exercises}{section.2.3}% 70
 \BOOKMARK [1][-]{section.2.4}{Higher derivatives}{chapter.2}% 71
-\BOOKMARK [1][-]{section.2.5}{Optimization}{chapter.2}% 72
-\BOOKMARK [1][-]{section.2.6}{Differentials}{chapter.2}% 73
-\BOOKMARK [1][-]{section.2.7}{Differentiation as an operator}{chapter.2}% 74
-\BOOKMARK [0][-]{chapter.3}{Integration}{part.1}% 75
-\BOOKMARK [1][-]{section.3.1}{Antidifferentiation}{chapter.3}% 76
-\BOOKMARK [1][-]{section.3.2}{Exponential growth examples}{chapter.3}% 77
-\BOOKMARK [1][-]{section.3.3}{More differential equations}{chapter.3}% 78
-\BOOKMARK [1][-]{section.3.4}{ODE Linearization}{chapter.3}% 79
-\BOOKMARK [1][-]{section.3.5}{Integration by Substitution}{chapter.3}% 80
-\BOOKMARK [1][-]{section.3.6}{Integration by parts}{chapter.3}% 81
-\BOOKMARK [1][-]{section.3.7}{Trigonometric substitution}{chapter.3}% 82
-\BOOKMARK [1][-]{section.3.8}{Partial fractions}{chapter.3}% 83
-\BOOKMARK [1][-]{section.3.9}{Definite integrals}{chapter.3}% 84
-\BOOKMARK [1][-]{section.3.10}{Fundamental Theorem of Integral Calculus}{chapter.3}% 85
-\BOOKMARK [1][-]{section.3.11}{Improper integrals}{chapter.3}% 86
-\BOOKMARK [1][-]{section.3.12}{Trigonometric integrals}{chapter.3}% 87
-\BOOKMARK [1][-]{section.3.13}{Tables and computers}{chapter.3}% 88
-\BOOKMARK [0][-]{chapter.4}{Applications}{part.1}% 89
-\BOOKMARK [0][-]{chapter.5}{Discretization}{part.1}% 90
-\BOOKMARK [1][-]{section.5.1}{Series}{chapter.5}% 91
+\BOOKMARK [2][-]{subsection.2.4.1}{Interpretations}{section.2.4}% 72
+\BOOKMARK [2][-]{subsection.2.4.2}{Bonus: Another look at Taylor series}{section.2.4}% 73
+\BOOKMARK [2][-]{subsection.2.4.3}{Exercises}{section.2.4}% 74
+\BOOKMARK [1][-]{section.2.5}{Optimization}{chapter.2}% 75
+\BOOKMARK [2][-]{subsection.2.5.1}{Critical points}{section.2.5}% 76
+\BOOKMARK [2][-]{subsection.2.5.2}{Classifying critical points}{section.2.5}% 77
+\BOOKMARK [1][-]{section.2.6}{Differentials}{chapter.2}% 78
+\BOOKMARK [1][-]{section.2.7}{Differentiation as an operator}{chapter.2}% 79
+\BOOKMARK [0][-]{chapter.3}{Integration}{part.1}% 80
+\BOOKMARK [1][-]{section.3.1}{Antidifferentiation}{chapter.3}% 81
+\BOOKMARK [1][-]{section.3.2}{Exponential growth examples}{chapter.3}% 82
+\BOOKMARK [1][-]{section.3.3}{More differential equations}{chapter.3}% 83
+\BOOKMARK [1][-]{section.3.4}{ODE Linearization}{chapter.3}% 84
+\BOOKMARK [1][-]{section.3.5}{Integration by Substitution}{chapter.3}% 85
+\BOOKMARK [1][-]{section.3.6}{Integration by parts}{chapter.3}% 86
+\BOOKMARK [1][-]{section.3.7}{Trigonometric substitution}{chapter.3}% 87
+\BOOKMARK [1][-]{section.3.8}{Partial fractions}{chapter.3}% 88
+\BOOKMARK [1][-]{section.3.9}{Definite integrals}{chapter.3}% 89
+\BOOKMARK [1][-]{section.3.10}{Fundamental Theorem of Integral Calculus}{chapter.3}% 90
+\BOOKMARK [1][-]{section.3.11}{Improper integrals}{chapter.3}% 91
+\BOOKMARK [1][-]{section.3.12}{Trigonometric integrals}{chapter.3}% 92
+\BOOKMARK [1][-]{section.3.13}{Tables and computers}{chapter.3}% 93
+\BOOKMARK [0][-]{chapter.4}{Applications}{part.1}% 94
+\BOOKMARK [0][-]{chapter.5}{Discretization}{part.1}% 95
+\BOOKMARK [1][-]{section.5.1}{Series}{chapter.5}% 96
