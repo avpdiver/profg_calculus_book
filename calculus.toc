@@ -1,111 +1,156 @@
-\contentsline {part}{I\hspace {1em}Calculus Single Variable}{7}{part.1}
-\contentsline {chapter}{\numberline {1}Functions}{9}{chapter.1}
-\contentsline {section}{\numberline {1.1}Functions}{9}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Operations on Functions}{9}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Classes of Functions}{10}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}The Exponential}{13}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}A long polynomial}{14}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Properties of $e^x$}{14}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Euler's formula}{14}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}More on the long polynomial}{15}{subsection.1.2.4}
-\contentsline {subsection}{\numberline {1.2.5}Exercises}{16}{subsection.1.2.5}
-\contentsline {section}{\numberline {1.3}Taylor series}{17}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}The definition of a Taylor series at x=0}{17}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Why Taylor series matter}{18}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Taylor series as polynomial approximants}{19}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}Exercises}{19}{subsection.1.3.4}
-\contentsline {section}{\numberline {1.4}Computing Taylor series}{20}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Substitution}{20}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Combining like terms}{21}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Hyperbolic trigonometric functions}{22}{subsection.1.4.3}
-\contentsline {subsection}{\numberline {1.4.4}Manipulating Taylor series}{23}{subsection.1.4.4}
-\contentsline {subsection}{\numberline {1.4.5}Higher Order Terms in Taylor Series}{24}{subsection.1.4.5}
-\contentsline {subsection}{\numberline {1.4.6}Extra examples}{25}{subsection.1.4.6}
-\contentsline {subsection}{\numberline {1.4.7}Exercises}{26}{subsection.1.4.7}
-\contentsline {section}{\numberline {1.5}Convergence}{26}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Functions without a Taylor series}{26}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Summary}{30}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Electrostatics example}{31}{subsection.1.5.3}
-\contentsline {subsection}{\numberline {1.5.4}Exercises}{32}{subsection.1.5.4}
-\contentsline {section}{\numberline {1.6}Expansion points}{33}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Expansion points}{33}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Taylor polynomial for approximation}{33}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1.6.3}Caveat for compositions}{35}{subsection.1.6.3}
-\contentsline {subsection}{\numberline {1.6.4}Exercises}{36}{subsection.1.6.4}
-\contentsline {section}{\numberline {1.7}Limits}{36}{section.1.7}
-\contentsline {subsection}{\numberline {1.7.1}Definition of the limit}{36}{subsection.1.7.1}
-\contentsline {subsection}{\numberline {1.7.2}When limits may not exist}{37}{subsection.1.7.2}
-\contentsline {subsection}{\numberline {1.7.3}Continuous functions}{37}{subsection.1.7.3}
-\contentsline {subsection}{\numberline {1.7.4}Rules for limits}{37}{subsection.1.7.4}
-\contentsline {section}{\numberline {1.8}Exercises}{39}{section.1.8}
-\contentsline {section}{\numberline {1.9}L'Hopital's Rule}{40}{section.1.9}
-\contentsline {subsection}{\numberline {1.9.1}L'Hopital's rule}{40}{subsection.1.9.1}
-\contentsline {subsection}{\numberline {1.9.2}Other indeterminate forms}{42}{subsection.1.9.2}
-\contentsline {subsection}{\numberline {1.9.3}Limits going to infinity}{44}{subsection.1.9.3}
-\contentsline {subsection}{\numberline {1.9.4}Exercises}{46}{subsection.1.9.4}
-\contentsline {section}{\numberline {1.10}Orders of growth}{46}{section.1.10}
-\contentsline {subsection}{\numberline {1.10.1}Hierarchy of functions going to infinity}{47}{subsection.1.10.1}
-\contentsline {subsection}{\numberline {1.10.2}Hierarchy of functions going to 0}{48}{subsection.1.10.2}
-\contentsline {subsection}{\numberline {1.10.3}Big-O notation}{48}{subsection.1.10.3}
-\contentsline {subsection}{\numberline {1.10.4}Application: Error Analysis}{51}{subsection.1.10.4}
-\contentsline {subsection}{\numberline {1.10.5}Application: Computational Complexity}{52}{subsection.1.10.5}
-\contentsline {subsection}{\numberline {1.10.6}Big O in Other Areas of Mathematics}{52}{subsection.1.10.6}
-\contentsline {subsection}{\numberline {1.10.7}Execises}{53}{subsection.1.10.7}
-\contentsline {chapter}{\numberline {2}Differentiation}{55}{chapter.2}
-\contentsline {section}{\numberline {2.1}Derivatives}{55}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Notation}{57}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Interpretations}{57}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Examples with respect to time}{57}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Examples with respect to other variables}{57}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}Exercises}{58}{subsection.2.1.5}
-\contentsline {section}{\numberline {2.2}Differentiation rules}{59}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Differentiation rules}{59}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Other rules}{60}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Bonus}{62}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Exercises}{64}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Linearization}{65}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Linear variation visualized}{65}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Linear approximation}{66}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Newton's method}{68}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Exercises}{70}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}Higher derivatives}{71}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Interpretations}{71}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Bonus: Another look at Taylor series}{75}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Exercises}{75}{subsection.2.4.3}
-\contentsline {section}{\numberline {2.5}Optimization}{75}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Critical points}{75}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Classifying critical points}{76}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Global Extrema}{79}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}Application: Statistics}{79}{subsection.2.5.4}
-\contentsline {subsection}{\numberline {2.5.5}Exercises}{80}{subsection.2.5.5}
-\contentsline {section}{\numberline {2.6}Differentials}{81}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}The differential as an operator}{82}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Related rates}{83}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}Relative rates of change}{85}{subsection.2.6.3}
-\contentsline {subsection}{\numberline {2.6.4}Exercises}{87}{subsection.2.6.4}
-\contentsline {section}{\numberline {2.7}Differentiation as an operator}{87}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Logarithmic differentiation}{88}{subsection.2.7.1}
-\contentsline {subsection}{\numberline {2.7.2}Other operators}{88}{subsection.2.7.2}
-\contentsline {subsection}{\numberline {2.7.3}Operators in other contexts}{90}{subsection.2.7.3}
-\contentsline {subsection}{\numberline {2.7.4}Infinite Power Tower}{91}{subsection.2.7.4}
-\contentsline {subsection}{\numberline {2.7.5}Exercises}{91}{subsection.2.7.5}
-\contentsline {chapter}{\numberline {3}Integration}{93}{chapter.3}
-\contentsline {section}{\numberline {3.1}Antidifferentiation}{93}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Differential equations}{93}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Exercises}{97}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Exponential growth examples}{97}{section.3.2}
-\contentsline {section}{\numberline {3.3}More differential equations}{98}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Separable differential equations}{98}{subsection.3.3.1}
-\contentsline {section}{\numberline {3.4}ODE Linearization}{98}{section.3.4}
-\contentsline {section}{\numberline {3.5}Integration by Substitution}{98}{section.3.5}
-\contentsline {section}{\numberline {3.6}Integration by parts}{98}{section.3.6}
-\contentsline {section}{\numberline {3.7}Trigonometric substitution}{98}{section.3.7}
-\contentsline {section}{\numberline {3.8}Partial fractions}{98}{section.3.8}
-\contentsline {section}{\numberline {3.9}Definite integrals}{98}{section.3.9}
-\contentsline {section}{\numberline {3.10}Fundamental Theorem of Integral Calculus}{98}{section.3.10}
-\contentsline {section}{\numberline {3.11}Improper integrals}{98}{section.3.11}
-\contentsline {section}{\numberline {3.12}Trigonometric integrals}{98}{section.3.12}
-\contentsline {section}{\numberline {3.13}Tables and computers}{98}{section.3.13}
-\contentsline {chapter}{\numberline {4}Applications}{99}{chapter.4}
-\contentsline {chapter}{\numberline {5}Discretization}{101}{chapter.5}
-\contentsline {section}{\numberline {5.1}Series}{101}{section.5.1}
+\contentsline {part}{I\hspace {1em}Single Variable}{7}{part.1}% 
+\contentsline {chapter}{\numberline {1}Functions}{9}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Functions}{9}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}Operations on Functions}{9}{subsection.1.1.1}% 
+\contentsline {subsubsection}{Composition}{9}{section*.2}% 
+\contentsline {subsubsection}{Inverse}{10}{section*.3}% 
+\contentsline {subsection}{\numberline {1.1.2}Classes of Functions}{10}{subsection.1.1.2}% 
+\contentsline {subsubsection}{Polynomials}{10}{section*.4}% 
+\contentsline {subsubsection}{Rational functions}{10}{section*.5}% 
+\contentsline {subsubsection}{Powers}{10}{section*.6}% 
+\contentsline {subsubsection}{Trigonometrics}{11}{section*.7}% 
+\contentsline {subsubsection}{Inverse Trigonometrics}{12}{section*.8}% 
+\contentsline {subsubsection}{Exponentials}{12}{section*.9}% 
+\contentsline {subsubsection}{Euler's Formula}{12}{section*.10}% 
+\contentsline {subsubsection}{Additional Examples}{13}{section*.11}% 
+\contentsline {section}{\numberline {1.2}The Exponential}{13}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}A long polynomial}{14}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}Properties of $e^x$}{14}{subsection.1.2.2}% 
+\contentsline {subsection}{\numberline {1.2.3}Euler's formula}{14}{subsection.1.2.3}% 
+\contentsline {subsection}{\numberline {1.2.4}More on the long polynomial}{15}{subsection.1.2.4}% 
+\contentsline {subsection}{\numberline {1.2.5}Exercises}{16}{subsection.1.2.5}% 
+\contentsline {section}{\numberline {1.3}Taylor series}{17}{section.1.3}% 
+\contentsline {subsection}{\numberline {1.3.1}The definition of a Taylor series at x=0}{17}{subsection.1.3.1}% 
+\contentsline {subsection}{\numberline {1.3.2}Why Taylor series matter}{18}{subsection.1.3.2}% 
+\contentsline {subsection}{\numberline {1.3.3}Taylor series as polynomial approximants}{19}{subsection.1.3.3}% 
+\contentsline {subsection}{\numberline {1.3.4}Exercises}{19}{subsection.1.3.4}% 
+\contentsline {section}{\numberline {1.4}Computing Taylor series}{20}{section.1.4}% 
+\contentsline {subsection}{\numberline {1.4.1}Substitution}{20}{subsection.1.4.1}% 
+\contentsline {subsection}{\numberline {1.4.2}Combining like terms}{21}{subsection.1.4.2}% 
+\contentsline {subsection}{\numberline {1.4.3}Hyperbolic trigonometric functions}{22}{subsection.1.4.3}% 
+\contentsline {subsection}{\numberline {1.4.4}Manipulating Taylor series}{24}{subsection.1.4.4}% 
+\contentsline {subsection}{\numberline {1.4.5}Higher Order Terms in Taylor Series}{24}{subsection.1.4.5}% 
+\contentsline {subsection}{\numberline {1.4.6}Extra examples}{25}{subsection.1.4.6}% 
+\contentsline {subsection}{\numberline {1.4.7}Exercises}{26}{subsection.1.4.7}% 
+\contentsline {section}{\numberline {1.5}Convergence}{26}{section.1.5}% 
+\contentsline {subsection}{\numberline {1.5.1}Functions without a Taylor series}{27}{subsection.1.5.1}% 
+\contentsline {subsubsection}{The geometric series}{27}{section*.12}% 
+\contentsline {subsection}{\numberline {1.5.2}Summary}{31}{subsection.1.5.2}% 
+\contentsline {subsection}{\numberline {1.5.3}Electrostatics example}{31}{subsection.1.5.3}% 
+\contentsline {subsection}{\numberline {1.5.4}Exercises}{33}{subsection.1.5.4}% 
+\contentsline {section}{\numberline {1.6}Expansion points}{33}{section.1.6}% 
+\contentsline {subsection}{\numberline {1.6.1}Expansion points}{34}{subsection.1.6.1}% 
+\contentsline {subsection}{\numberline {1.6.2}Taylor polynomial for approximation}{34}{subsection.1.6.2}% 
+\contentsline {subsection}{\numberline {1.6.3}Caveat for compositions}{36}{subsection.1.6.3}% 
+\contentsline {subsection}{\numberline {1.6.4}Exercises}{36}{subsection.1.6.4}% 
+\contentsline {section}{\numberline {1.7}Limits}{37}{section.1.7}% 
+\contentsline {subsection}{\numberline {1.7.1}Definition of the limit}{37}{subsection.1.7.1}% 
+\contentsline {subsection}{\numberline {1.7.2}When limits may not exist}{38}{subsection.1.7.2}% 
+\contentsline {subsection}{\numberline {1.7.3}Continuous functions}{38}{subsection.1.7.3}% 
+\contentsline {subsection}{\numberline {1.7.4}Rules for limits}{38}{subsection.1.7.4}% 
+\contentsline {section}{\numberline {1.8}Exercises}{40}{section.1.8}% 
+\contentsline {section}{\numberline {1.9}L'Hopital's Rule}{41}{section.1.9}% 
+\contentsline {subsection}{\numberline {1.9.1}L'Hopital's rule}{41}{subsection.1.9.1}% 
+\contentsline {subsection}{\numberline {1.9.2}Other indeterminate forms}{43}{subsection.1.9.2}% 
+\contentsline {subsubsection}{Case: $\infty - \infty $}{43}{section*.13}% 
+\contentsline {subsubsection}{Case: $\infty \cdot 0$}{44}{section*.14}% 
+\contentsline {subsubsection}{Case: $\infty ^0$}{44}{section*.15}% 
+\contentsline {subsubsection}{Case: $0^0$}{45}{section*.16}% 
+\contentsline {subsection}{\numberline {1.9.3}Limits going to infinity}{45}{subsection.1.9.3}% 
+\contentsline {subsection}{\numberline {1.9.4}Exercises}{47}{subsection.1.9.4}% 
+\contentsline {section}{\numberline {1.10}Orders of growth}{47}{section.1.10}% 
+\contentsline {subsection}{\numberline {1.10.1}Hierarchy of functions going to infinity}{48}{subsection.1.10.1}% 
+\contentsline {subsection}{\numberline {1.10.2}Hierarchy of functions going to 0}{49}{subsection.1.10.2}% 
+\contentsline {subsection}{\numberline {1.10.3}Big-O notation}{49}{subsection.1.10.3}% 
+\contentsline {subsection}{\numberline {1.10.4}Application: Error Analysis}{52}{subsection.1.10.4}% 
+\contentsline {subsection}{\numberline {1.10.5}Application: Computational Complexity}{53}{subsection.1.10.5}% 
+\contentsline {subsubsection}{Example: Multiplication}{53}{section*.17}% 
+\contentsline {subsubsection}{Example: Sorting}{53}{section*.18}% 
+\contentsline {subsection}{\numberline {1.10.6}Big O in Other Areas of Mathematics}{53}{subsection.1.10.6}% 
+\contentsline {subsubsection}{Stirling's formula}{53}{section*.19}% 
+\contentsline {subsubsection}{Prime number theorem}{54}{section*.20}% 
+\contentsline {subsection}{\numberline {1.10.7}Exercises}{54}{subsection.1.10.7}% 
+\contentsline {chapter}{\numberline {2}Differentiation}{55}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Derivatives}{55}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Notation}{57}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}Interpretations}{57}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.3}Examples with respect to time}{57}{subsection.2.1.3}% 
+\contentsline {subsubsection}{Electromagnetism}{57}{section*.21}% 
+\contentsline {subsubsection}{Chemistry}{57}{section*.22}% 
+\contentsline {subsection}{\numberline {2.1.4}Examples with respect to other variables}{57}{subsection.2.1.4}% 
+\contentsline {subsubsection}{Spring constant}{57}{section*.23}% 
+\contentsline {subsubsection}{Elasticity}{58}{section*.24}% 
+\contentsline {subsubsection}{Viscosity}{58}{section*.25}% 
+\contentsline {subsubsection}{Tax rates}{58}{section*.26}% 
+\contentsline {subsection}{\numberline {2.1.5}Exercises}{58}{subsection.2.1.5}% 
+\contentsline {section}{\numberline {2.2}Differentiation rules}{59}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Differentiation rules}{59}{subsection.2.2.1}% 
+\contentsline {subsubsection}{Linearity}{59}{section*.27}% 
+\contentsline {subsubsection}{Product}{59}{section*.28}% 
+\contentsline {subsubsection}{Chain}{59}{section*.29}% 
+\contentsline {subsubsection}{Caveat}{60}{section*.30}% 
+\contentsline {subsection}{\numberline {2.2.2}Other rules}{60}{subsection.2.2.2}% 
+\contentsline {subsubsection}{Reciprocal}{60}{section*.31}% 
+\contentsline {subsubsection}{Quotient}{60}{section*.32}% 
+\contentsline {subsubsection}{Inverse}{61}{section*.33}% 
+\contentsline {subsection}{\numberline {2.2.3}Bonus}{62}{subsection.2.2.3}% 
+\contentsline {subsubsection}{Boundary of spaces}{62}{section*.34}% 
+\contentsline {subsubsection}{Lists}{64}{section*.35}% 
+\contentsline {subsection}{\numberline {2.2.4}Exercises}{64}{subsection.2.2.4}% 
+\contentsline {section}{\numberline {2.3}Linearization}{65}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Linear variation visualized}{65}{subsection.2.3.1}% 
+\contentsline {subsubsection}{Square}{65}{section*.36}% 
+\contentsline {subsubsection}{Triangle}{66}{section*.37}% 
+\contentsline {subsubsection}{Disc}{66}{section*.38}% 
+\contentsline {subsection}{\numberline {2.3.2}Linear approximation}{66}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.3}Newton's method}{68}{subsection.2.3.3}% 
+\contentsline {subsubsection}{Caveat}{69}{section*.39}% 
+\contentsline {subsection}{\numberline {2.3.4}Exercises}{70}{subsection.2.3.4}% 
+\contentsline {section}{\numberline {2.4}Higher derivatives}{71}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Interpretations}{71}{subsection.2.4.1}% 
+\contentsline {subsubsection}{Quadrotors}{72}{section*.40}% 
+\contentsline {subsubsection}{Curvature}{72}{section*.41}% 
+\contentsline {subsubsection}{Elasticity}{74}{section*.42}% 
+\contentsline {subsubsection}{Taylor series}{74}{section*.43}% 
+\contentsline {subsection}{\numberline {2.4.2}Bonus: Another look at Taylor series}{74}{subsection.2.4.2}% 
+\contentsline {subsection}{\numberline {2.4.3}Exercises}{74}{subsection.2.4.3}% 
+\contentsline {section}{\numberline {2.5}Optimization}{75}{section.2.5}% 
+\contentsline {subsection}{\numberline {2.5.1}Critical points}{75}{subsection.2.5.1}% 
+\contentsline {subsection}{\numberline {2.5.2}Classifying critical points}{76}{subsection.2.5.2}% 
+\contentsline {subsection}{\numberline {2.5.3}Global Extrema}{78}{subsection.2.5.3}% 
+\contentsline {subsection}{\numberline {2.5.4}Application: Statistics}{78}{subsection.2.5.4}% 
+\contentsline {subsection}{\numberline {2.5.5}Exercises}{79}{subsection.2.5.5}% 
+\contentsline {section}{\numberline {2.6}Differentials}{80}{section.2.6}% 
+\contentsline {subsection}{\numberline {2.6.1}The differential as an operator}{81}{subsection.2.6.1}% 
+\contentsline {subsection}{\numberline {2.6.2}Related rates}{82}{subsection.2.6.2}% 
+\contentsline {subsection}{\numberline {2.6.3}Relative rates of change}{84}{subsection.2.6.3}% 
+\contentsline {subsection}{\numberline {2.6.4}Exercises}{85}{subsection.2.6.4}% 
+\contentsline {section}{\numberline {2.7}Differentiation as an operator}{86}{section.2.7}% 
+\contentsline {subsection}{\numberline {2.7.1}Logarithmic differentiation}{86}{subsection.2.7.1}% 
+\contentsline {subsection}{\numberline {2.7.2}Other operators}{87}{subsection.2.7.2}% 
+\contentsline {subsection}{\numberline {2.7.3}Operators in other contexts}{88}{subsection.2.7.3}% 
+\contentsline {subsection}{\numberline {2.7.4}Infinite Power Tower}{89}{subsection.2.7.4}% 
+\contentsline {subsection}{\numberline {2.7.5}Exercises}{90}{subsection.2.7.5}% 
+\contentsline {chapter}{\numberline {3}Integration}{91}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Antidifferentiation}{91}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Differential equations}{91}{subsection.3.1.1}% 
+\contentsline {subsubsection}{A Simple ODE}{92}{section*.44}% 
+\contentsline {subsubsection}{The Next Simplest ODE}{93}{section*.45}% 
+\contentsline {subsubsection}{Initial value problems}{94}{section*.46}% 
+\contentsline {subsection}{\numberline {3.1.2}Exercises}{95}{subsection.3.1.2}% 
+\contentsline {section}{\numberline {3.2}Exponential growth examples}{95}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}More differential equations}{96}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Separable differential equations}{96}{subsection.3.3.1}% 
+\contentsline {section}{\numberline {3.4}ODE Linearization}{96}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Integration by Substitution}{96}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Integration by parts}{96}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}Trigonometric substitution}{96}{section.3.7}% 
+\contentsline {section}{\numberline {3.8}Partial fractions}{96}{section.3.8}% 
+\contentsline {section}{\numberline {3.9}Definite integrals}{96}{section.3.9}% 
+\contentsline {section}{\numberline {3.10}Fundamental Theorem of Integral Calculus}{96}{section.3.10}% 
+\contentsline {section}{\numberline {3.11}Improper integrals}{96}{section.3.11}% 
+\contentsline {section}{\numberline {3.12}Trigonometric integrals}{96}{section.3.12}% 
+\contentsline {section}{\numberline {3.13}Tables and computers}{96}{section.3.13}% 
+\contentsline {chapter}{\numberline {4}Applications}{97}{chapter.4}% 
+\contentsline {chapter}{\numberline {5}Discretization}{99}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Series}{99}{section.5.1}% 
