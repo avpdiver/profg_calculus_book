@@ -907,7 +907,7 @@ Most functions in this course will be well-behaved and will not have the above p
 A function is continuous at the point ($a$) if the limit ($\lim_{x \rightarrow a} f(x)$) exists and ($\lim_{x \rightarrow a} f(x) = f(a)$). Intuitively, this says that there are no holes or jumps in the graph of ($f$) at ($a$).\\
 Finally, a function is continuous if it is continuous at every point in its domain.
 
-\subsection{Rules for limits}
+\subsection{Rules for limits} \label{ChFunctionsSecLimitsSubsecRulesForLimits}
 There are rules for adding, multiplying, dividing, and composing limits. Suppose that $\displaystyle \lim_{x \rightarrow a} f(x)$ and $\displaystyle \lim_{x \rightarrow a} g(x)$ exist. Then
 \begin{enumerate}
 \item (Sum) $\displaystyle \lim_{x \rightarrow a} (f+g)(x) = \lim_{x \rightarrow a} f(x) + \lim_{x \rightarrow a} g(x)$.
@@ -2287,24 +2287,353 @@ Applying the second derivative test, we compute \[ \frac{d^2S}{dm^2} = 2 \sum_i 
 
 \subsection{Exercises}
 \begin{itemize}
-\item 
-\item 
-\item 
-\item 
-\item 
-\item 
-\item 
-\item 
-\item 
-\item 
+\item Find all the local maxima and minima of the function $y=x e^{-x^2}$.
+\item Which type of critical point does the function $f(x) = e^{\sin(x^4)}\cos(x^2)$ have at zero ?
+\item Use a Taylor series about $x=0$ to determine whether the function $f(x) = \sin^3(x^3)$ has a local maximum or local minimum at the origin.
+\item Find the location of the global maximum and minimum of $f(x) = x^3-6x^2+1$ on the interval $ [-1,7] $.
+\item Consider a stretch of highway in which cars are traveling at an average speed $v$. The "traffic density" $u$ is the total amount of cars on our stretch of road divided by its length. These two quantities are related: the less cars on the road, the faster drivers are able to go. On the other hand, if traffic becomes heavy, drivers will naturally decrease their speed. The so-called "parabolic model" assumes that this relationship is dictated by the equation: \[ u = u_\mathrm{max} \left( 1 - \frac{v}{v_\mathrm{max}} \right) \] where $u_\mathrm{max}$ represents the capacity of the road, and $v_\mathrm{max}$ the speed limit on it. The amount of cars passing through our road is called the "traffic flux" or "throughput", and is given by the product of the traffic density and the average speed: $F = uv$. Using the parabolic model, find out at what average speed $v_\ast$ the flux through our road is maximized.
+\item A manufacturing company wants to know how many workers it should hire. If it employs too many people, the machines in the factory will be overutilized and the workers will have to wait until they are free, thus reducing the number of units each one will produce in a day's work. On the other hand, too few workers would leave the machines idle for long periods of time. A rough model for the relationship between the number $n$ of workers and their productivity $p$ is given by the equation \[ p = p_\mathrm{max} \left( 1 - \frac{n}{n_\mathrm{max}} \right) \] where $p_\mathrm{max} = 10$ is the maximum number of units a worker can produce in a day and $n_\mathrm{max} = 100$ is the maximum number of workers the factory can accommodate. The amount of units $U$ manufactured in the whole factory in one day is equal to the product of the number of workers and the number of units each one produces: $ U = np $. How many workers should the company hire in order to maximize its production?
+\item A technology company has just invented a new gadget. In order to maximize the profit derived from its sale, the company must make a critical decision: at what price should it be sold? A market study suggests that the number $N$ of units sold would approximately follow the equation $N = N_\mathrm{max} e^{-P / \lambda} $, where $P$ is the sale price, $N_\mathrm{max} = 10,000,000$ is the number of units that would saturate the market, and $\lambda = \$50$. If it costs $\$250$ to manufacture one of these gadgets, at what price $P_\ast$ would be profit of the company be maximized?
+\item The manufacturing process of a certain chemical substance is exothermic, that is, it releases heat. The amount of heat released, $Q$, depends on the temperature $T$ at which the process is carried out, and it is given by the equation $ Q = \alpha (T-T_0)^{-2} e^{(T-T_0) / \lambda} $, where $T_0 = 70^\mathrm{o}F$ is the room temperature of the manufacturing plant, and $\displaystyle \alpha = 3000\: J\, ({}^\mathrm{o}F)^2$ and $\lambda = 50^\mathrm{o} F$. If the temperature $T$ must be maintained above $100^\mathrm{o} F$, at what temperature $T_\ast$ would be the heat loss be minimized?
+\item Classify the critical point $x=0$ of the function $f(x) = \frac{\sin^2(3x^2) \cos(x)}{x} $ using Taylor series.
+\item Construct a box without a top whose base is a square. The material cost for the bottom is \$10 per square feet, the cost for the side is \$5 per square feet. The box must have volume 8 cubic feet. Determine the dimension of the box that will minimize the cost.
 \end{itemize}
+
 \section{Differentials} \label{ChDifferentiationSecDifferentials}
+
+This module deals with differentials, e.g. $dx$ or $du$. A formal treatment of differential forms is beyond the scope of this course. For now, the best way to think about the differential $dx$ or $du$ is to think of them as rates of change, and relate them with the chain rule:
+\begin{equation*}
+du = \frac{du}{dx}dx.
+\end{equation*}
+
+In words, the rate of change of $u$ equals the rate of change of $u$ with respect to $x$ times the rate of change of $x$. This is not a perfect interpretation, but it will serve our purposes for this course.
+
+\subsection{The differential as an operator}
+
+Think of the differential ($d$) as an operator which can be applied to an equation $f=g$ to give back $df = dg$. This process allows one to find the derivative of functions which are defined implicitly, i.e., functions which cannot be "solved for $y$" as $y=f(x)$. This method is called implicit differentiation.
+\bigbreak
+\textbf{Example} Find ($\frac{dy}{dx}$) of the circle ($x^2+y^2=r^2$).
+\begin{examplebox}
+Taking the differential (remembering the chain rule) and doing some algebra gives
+\begin{align*}
+2x(dx) + 2y(dy) &= 0 \\
+2y(dy) &= -2x(dx) \\
+\frac{dy}{dx} &= \frac{-2x}{2y} \\
+&= -\frac{x}{y}.
+\end{align*}
+So $\frac{dy}{dx} = -\frac{x}{y}$.	
+\end{examplebox}
+\bigbreak
+\textbf{Example} In economics, the marginal rate of substitution (MRS) of X for Y is the rate at which a consumer is willing to exchange good Y for good X to maintain an equal level of satisfaction (called utility in economics jargon).
+
+Let $U(X,Y)$ denote a particular consumer's utility function. As a particular example, let X be coffee, in ounces, and Y be doughnuts. Then the curve $U(X,Y) = C$ represents all the different combinations of coffee and doughnuts where the consumer is equally happy. For example, if the utility function is \[ U(X,Y) = Y^2(X-3), \] then the following shows the graph of the curve $U(X,Y) = 4$. The two plotted points show that this consumer is equally satisfied with 4 ounces of coffee and 2 doughnuts as with 7 ounces of coffee and 1 doughnut.
+\begin{center}\includegraphics[scale=0.6]{CoffeeDoughnuts}\end{center}	
+
+The MRS, then, is the rate of exchange of Y for X (doughnuts for coffee) so that utility stays the same (i.e. we stay on the curve). Mathematically, this is \[ \hbox{MRS} = -\frac{dY}{dX}. \]
+
+Find MRS for the utility function given above, $U(X,Y) = Y^2(X-3)$. Then calculate the MRS at the points $(4,2)$ and $(7,1)$ and interpret the results.
+	
+\begin{examplebox}
+Using implicit differentiation, we find
+\begin{align*}
+Y^2(X-3) &= C \\
+2Y\, dY \,(X-3) + Y^2 \, dX &= 0.
+\end{align*}
+
+Now solving for $-\frac{dY}{dX}$ we find \[ \hbox{MRS} = -\frac{dY}{dX} = \frac{Y^2}{2Y(X-3)} = \frac{Y}{2(X-3)}. \]
+
+Evaluating at $(4,2)$ gives a MRS of 1, which means that at that point the consumer is willing to substitute 1 doughnut for an ounce of coffee. At $(7,1)$ the MRS is $\frac{1}{8}$, which means that the consumer is only willing to give up $\frac{1}{8}$ of a doughnut for an additional ounce of coffee.
+
+In a sense the MRS is a measure of how a consumer reacts to the scarcity of one good relative to another and how that affects her willingness to exchange the goods.	
+\end{examplebox}
+
+\bigbreak
+\textbf{Example} Find the derivative of the function $y=f(x)$ defined implicitly by the equation
+\begin{equation*}
+ye^x+x\ln(y) = e.
+\end{equation*}
+\begin{examplebox}
+Taking the differential (remembering the product rule) gives
+\begin{equation*}
+(dy)e^x+y(e^xdx)+(dx)\ln(y) + x\left(\frac{1}{y}dy\right)= 0.
+\end{equation*}
+
+Ultimately, the goal is to solve for $\frac{dy}{dx}$, so collecting all the terms with $dy$ on the left and the terms with $dx$ on the right gives
+\begin{equation*}
+\left(e^x+\frac{x}{y}\right)dy = \left(-ye^x-\ln(y)\right)dx.
+\end{equation*}
+
+Finally, dividing through gives
+\begin{equation*}
+\frac{dy}{dx} = \frac{-ye^x-\ln(y)}{e^x+x/y}. 
+\end{equation*}
+\end{examplebox}
+	
+\subsection{Related rates}			
+
+The differential is often used in related rates problems. A related rates problem typically has a physical description and asks for the rate at which some quantity is changing. The description must be translated into an implicit relation between the variables involved, and then implicit differentiation is used to find the desired derivative.
+\bigbreak
+\textbf{Example} Suppose a 10 foot ladder is leaning against a wall. The base of the ladder starts sliding away from the wall at a rate of 4 feet per second. At the moment when the base of the ladder is 6 feet away from the wall, at what rate is the top of the ladder sliding down the wall?
+\begin{examplebox}
+\begin{center}\includegraphics[scale=0.6]{Ladder}\end{center}		
+Let $x$ be the distance from the base of the ladder to the wall and $y$ be the distance from the top of the ladder to the floor. Then by the Pythagorean theorem, $x^2+y^2 = 10^2$. At the moment in question, $x=6$ so $y=8$.
+
+The differential of this equation gives
+\begin{equation*} 2xdx+2ydy = 0, \end{equation*}
+and solving for $\frac{dy}{dx}$ gives $\frac{dy}{dx} = -\frac{x}{y} = -\frac{6}{8} = -\frac{3}{4}$. But the question asked for $\frac{dy}{dt}$, not $\frac{dy}{dx}$. But by the Chain rule,
+\begin{equation*} \frac{dy}{dt} = \frac{dy}{dx}\cdot \frac{dx}{dt}. \end{equation*}
+
+Since $\frac{dy}{dx} = -\frac{3}{4}$ and $\frac{dx}{dt} = 4$ (given in the problem), it follows that
+\begin{equation*} 
+\frac{dy}{dt} = \frac{dy}{dx}\cdot \frac{dx}{dt} = \left(-\frac{3}{4}\right) \cdot 4 = -3.
+\end{equation*}
+
+So the top of the ladder is sliding down the wall at a rate of 3 feet per second.
+\end{examplebox}
+\bigbreak
+\textbf{Example} Consider the shape of a stream of water as it flows from a faucet. The stream has a circular cross-section which gets narrower lower in the stream, and the goal is to find how the radius of that cross-section is changing with respect to time.
+
+Assume on the one hand that the water is flowing at a constant rate $C$. On the other hand, the area of the cross section times the velocity through that cross section equals the flow:
+\begin{center}\includegraphics[scale=0.6]{Faucet}\end{center}
+
+Dividing by $\pi$ and taking the differential gives
+\begin{align*}
+r^2 v &= C \\
+2r \, dr \, v + r^2 \, dv &= 0 \\
+dr &= -\frac{r^2}{2rv} \, dv = -\frac{r}{2v} \, dv.
+\end{align*}
+
+So \[ \frac{dr}{dv} = -\frac{r}{2v}. \]
+
+Now, using the chain rule and a few facts from physics gives that
+\begin{align*}
+\frac{dr}{dt} &= \frac{dr}{dv} \frac{dv}{dt} \\
+&= -\frac{r}{2v} \frac{dv}{dt} \\
+&= -\frac{rg}{2v} \\
+&= -\frac{rg}{2(v_0 + gt)}.
+\end{align*}
+
+This is known as a differential equation (in particular, a separable differential equation). One can solve this equation to get an explicit expression for $r$ in terms of $t$; see the module on \hyperref[ChIntegrationSecMoreDifferentialEquationsSubsecSeparableDifferentialEquations]{separable differential equations}.
+
+\subsection{Relative rates of change}
+We can normalize the differential $du$ by dividing by $u$. This gives $\frac{du}{u}$. This is known as the relative rate of change. Note that \[\frac{du}{u} = d(\ln u).\] where $V$ is voltage across the resistor, $I$ is the current, and $R$ is the resistance of the resistor. If the voltage across a variable resistor is fixed, find the relationship between the relative rates change of resistance and current.
+\begin{examplebox}
+Beginning with Ohm's law and taking the differential gives
+\begin{align*}
+V &= IR \\
+dV &= R \, dI + I \, dR. 
+\end{align*}
+
+Now, note that $dV = 0$ since voltage was assumed to be constant. Then dividing through by $IR$ gives
+\begin{align*}
+R \, dI + I \, dR &= 0 \\
+\frac{R \, dI}{IR} + \frac{I \, dR}{IR} &= 0 \\
+\frac{dI}{I} + \frac{dR}{R} &= 0 \\
+\frac{dI}{I} = -\frac{dR}{R}. 
+\end{align*}
+
+Thus, the relative rates of change of resistance and current are equal and opposite.	
+\end{examplebox}
+\bigbreak
+\textbf{Example} In a geometric solid (say, a sphere or a cube), how does the relative rate of change in volume compare to that of surface area?
+\begin{examplebox}
+For a sphere of radius $r$, the volume and area (and their differentials) are
+\begin{align*}
+V &= \frac{4}{3}\pi r^3 & dV &= 4\pi r^2 \, dr \\
+A &= 4\pi r^2 & dA &= 8\pi r \, dr. 
+\end{align*}
+
+Then the relative rates of change of volume and area are
+\begin{align*}
+\frac{dV}{V} &= \frac{4\pi r^2 \, dr}{\frac{4}{3}\pi r^3} \\
+&= 3 \frac{dr}{r}.
+\end{align*}
+and
+\begin{align*}
+\frac{dA}{A} &= \frac{8 \pi r \, dr}{4 \pi r^2} \\
+&= 2 \frac{dr}{r}.
+\end{align*}
+
+Thus, the relative rate of change of volume is $\frac{3}{2}$ that of area. Written another way, \[ \frac{dV/V}{dA/A} = \frac{3}{2}. \]
+
+For a cube of side length $s$, it turns out the same holds. The volume and area are
+\begin{align*}
+V &= s^3 & dV &= 3s^2 \, ds \\
+A &= 6 s^2 & dA &= 12 s \, ds. 
+\end{align*}
+
+The relative rates are $\frac{dV}{V} = 3 \frac{ds}{s}$ and $\frac{dA}{A} = 2 \frac{ds}{s}$, so once again \[ \frac{dV/V}{dA/A} = \frac{3}{2}. \]	
+\end{examplebox}
+\bigbreak
+\textbf{Example} In economics, the demand curve for a good is the quantity $Q$ of the good that a consumer would purchase as a function of the price $P$ of the good. The demand curve slopes downward since a consumer will typically buy less of a good if it is more expensive (the exception being a Giffen good).
+
+The price elasticity of demand, $E$, for a good is the rate of change of relative quantity fluctuation with respect to relative price fluctuation. Informally, it can be thought of as the percent change in quantity resulting from a percent change in price. One can also think of $E$ as a measure of how price sensitive a consumer is for that good at that price. Mathematically, \[ E = -\frac{dQ/Q}{dP/P}. \]
+
+The negative sign is there to force elasticity to be positive (without it, $\frac{dQ/Q}{dP/P}$ would always be negative due to the downward slope of the demand curve).
+
+A good is said to be elastic at a certain price if $E>1$ (that is, a consumer is highly sensitive to price changes). A good is inelastic at a certain price if $E<1$. An example of an elastic good is wine, since a small increase in the relative price of wine can result in a consumer substituting a different alcohol for it. An example of an inelastic good is toilet paper, since regardless of price changes, a consumer is likely to require about the same amount of toilet paper:
+\begin{center}
+	\includegraphics[scale=0.6]{WineElasticity}
+	\includegraphics[scale=0.6]{TPElasticity}
+\end{center}
+
+Revenue, $R$, is given by $R = P \cdot Q$. How does one maximize the relative revenue with respect to relative change in price?
+
+\subsection{Exercises}
+\begin{itemize}
+\item Use implicit differentiation to find $\displaystyle \frac{dy}{dx}$ from the equation $y^2 - y = \sin 2x$.
+\item Find the derivative $\displaystyle \frac{dy}{dx}$ if $x$ and $y$ are related through $xy = e^y$.
+\item Use implicit differentiation to find $\displaystyle \frac{dy}{dx}$ if $\sin x = e^{-y\cos x}$.
+\item Find the derivative $\displaystyle \frac{dy}{dx}$ from the equation $x\tan y - y^2\ln x = 4$.
+\item Model a hailstone as a round ball of radius $R$. As the hailstone falls from the sky, its radius increases at a constant rate $C$. At what rate does the volume $V$ of the hailstone change?
+\item The volume of a cubic box of side-length $L$ is $V = L^3$. How are the relative rates of change of $L$ and $V$ related?
+\item Consider a box of height $h$ with a square base of side length $L$. Assume that $L$ is increasing at a rate of $10\% $ per day, but $h$ is decreasing at a rate of $10\%$ per day. Use a linear approximation to find at what (approximate) rate the volume of the box changing. "Hint:" consider the relative rate of change of the volume of the box.
+\item A large tank of oil is slowly leaking oil into a containment tank surrounding it. The oil tank is a vertical cylinder with a diameter of 10 meters. The containment tank has a square base with side length of 15 meters and tall vertical walls. The bottom of the oil tank and the bottom of the containment tank are concentric (the round base inside the square base). Denote by $h_o$ the height of the oil inside of the oil tank, and by $h_c$ the height of the oil in the containment tank. How are the rates of change of these two quantities related?
+\item The "stopping distance" $D_\mathrm{stop}$ is the distance traveled by a vehicle from the moment the driver becomes aware of an obstacle in the road until the car stops completely. This occurs in two phases.\\
+(1) The first one, the "reaction phase", spans from the moment the driver sees the obstacle until he or she has completely depressed the brake pedal. This entails taking the decision to stop the vehicle, lifting the foot from the gas pedal and onto the brake pedal, and pressing the latter down its full distance to obtain maximum braking power. The amount of time necessary to do all this is called the "reaction time" $t_\mathrm{react}$, and is independent of the speed at which the vehicle was traveling. Although this quantity varies from driver to driver, it is typically between $1.5\,\mathrm{s}$ and $2.5\,\mathrm{s}$. For the purposes of this problem, we will use an average value of $2\,\mathrm{s}$. The distance traversed by the vehicle in this time is unsurprisingly called "reaction distance" $D_\mathrm{react}$ and is given by the formula $D_\mathrm{react} = v t_\mathrm{react}$, where $v$ is the initial speed of the vehicle.\\
+(2) In the "braking phase", the vehicle decelerates and comes to a complete stop. The "braking distance" $D_\mathrm{brake}$ that the vehicle covers in this phase is proportional to the square of the initial speed of the vehicle: $ D_\mathrm{brake} = \alpha v^2 $. The constant of proportionality $\alpha$ depends on the vehicle type and condition, as well as on the road conditions. Consider a typical value of $10^{-2}\,\mathrm{s^2/m}$.\\
+If the initial speed of the vehicle is $108\,\mathrm{km/h} = 30\,\mathrm{m/s}$, what is the ratio between the relative rate of change of the stopping distance and the relative rate of change of the initial speed?
+\item Assume that you possess equal amounts of a product $X$ and $Y$, but you value them differently. Specifically, your "utility function" is of the form $ U(X,Y) = C X^\alpha Y^\beta $ for $\alpha$, $\beta$, and $C$ positive constants. What is your marginal rate of substitution (MRS) of $Y$ for $X$?
+\end{itemize}
+
 \section{Differentiation as an operator} \label{ChDifferentiationSecDifferentiationAsAnOperator}
+
+The sum, product, quotient, and chain rules make it possible to differentiate many functions. However, there are some more exotic functions which cannot be differentiated using these tools alone. For example, what is the derivative of $2^x$ or $x^x$ or $x^{x^x}$?
+
+The derivative should be interpreted as a rate of change, but what about the act of differentiation? Differentiation is an operator: it takes in a function and gives out another function. Other examples of operators include the logarithm, exponentiation, and integration. These (and other) operators can be applied to an entire equation to transform a hard problem to an easy problem and (once the solution is found) back again. This idea will allow us to compute the derivatives of the exotic functions above, and more.
+
+\subsection{Logarithmic differentiation}
+A common combination is called logarithmic differentiation, which consists of applying the logarithm operator followed by the differentiation operator. It is best demonstrated by example.
+\bigbreak
+\textbf{Example} Find the derivative of $e^x$ using logarthmic differentiation. 
+\begin{examplebox}
+We already know the derivative of $e^x$, but suppose we did not. Let $y = e^x$. Then applying the logarithm operator to this equation gives \[ \ln y = \ln(e^x) = x. \]
+
+Now applying the differentiation operator to the equation (and remembering the chain rule) gives \[ \frac{dy}{y} = dx, \] so $\frac{dy}{dx} = y$, and since $y=e^x$ from our original definition, we have \[ \frac{dy}{dx} = e^x, \] as expected.
+\end{examplebox}
+\bigbreak
+\textbf{Example} Use logarithmic differentiation to show that $\frac{d}{dx}(a^x) = a^x \ln a$. 
+\begin{examplebox}
+Similarly to the above example, let $y = a^x$. Then taking the logarithm gives \[ \ln y = \ln(a^x) = x \ln a. \]
+Differentiating gives \[ \frac{dy}{y} = (\ln a) \, dx \]
+And so \[ \frac{dy}{dx} = y (\ln a) = a^x \ln a, \] as desired.	
+\end{examplebox}
+\bigbreak
+\textbf{Example} Find the derivative of $x^x$.
+\begin{examplebox}
+Let $y=x^x$. Taking the logarithm gives \[ \ln y = x \ln x. \]
+Differentiating (using the product rule on the right) gives that \[ \frac{dy}{y} = x \frac{1}{x}\,dx + \ln x\,dx. \]
+Next, factoring and solving for $\frac{dy}{dx}$ gives \[ \frac{dy}{dx} = y(1+\ln x) = x^x(1+\ln x) \]	
+\end{examplebox}	
+
+\subsection{Other operators}
+There are other operators which can be used prior to differentiation. Consider the following examples.
+\bigbreak
+\textbf{Example} Compute the derivative of ($\ln x$) by using exponentiation followed by differentiation. 
+\begin{examplebox}
+Letting $y = \ln x$, we exponentiate the equation to find \[ e^y = x. \]
+Now, differentiating gives \[ e^y \, dy = dx, \] and solving for $\frac{dy}{dx}$ gives \[ \frac{dy}{dx} = \frac{1}{e^y} = \frac{1}{e^{\ln x}} = \frac{1}{x}, \] as desired.	
+\end{examplebox}
+
+Note that $\ln x$ is the inverse of $e^x$, and so when we exponentiated the equation, it could be thought of as applying the inverse of $\ln x$. This same method works for many other inverse functions. In particular, applying a trigonometric function can be thought of as an operator as well. This method can be used to find the derivatives of the various inverse trigonometric functions.
+\bigbreak
+\textbf{Example} Find the derivative of $\arcsin(x)$.
+\begin{examplebox}
+Letting $y = \arcsin x$, take the sine of the equation to find \[ \sin y = x. \]
+Now, differentiating gives \[ \cos y \, dy = dx. \]
+Thus, we find that \[ \frac{dy}{dx} = \frac{1}{\cos y}. \]
+Now, a little bit of trigonometry helps rewrite $\sec y$ in terms of $x$. Our original equation had $y = \arcsin x$. That means that $y$ is the angle such that $\sin y = x$. Since sine is the opposite over the hypotenuse, we can express this relationship with the following right triangle:
+\begin{center}\includegraphics[scale=0.6]{SinTrig}\end{center}
+where the adjacent leg comes from the Pythagorean theorem. It follows that $\cos y = \sqrt{1-x^2}$, and so we find \[ \frac{dy}{dx} = \frac{1}{\cos y} = \frac{1}{\sqrt{1-x^2}}. \]
+\end{examplebox}
+\bigbreak
+\textbf{Example} Find the derivative of $\arctan(x)$.
+\begin{examplebox}
+Let $y = \arctan(x)$. Applying $\tan$ to the equation gives \[ \tan y = x, \] and differentiating gives \[ \sec^2y\,dy = dx. \]
+Therefore,
+\begin{align*}
+\frac{dy}{dx} &= \frac{1}{\sec^2y}
+\end{align*}
+We can now do similar right triangle trig as in the previous example. Or we can recall that by the Pythagorean identity for tangent and secant, we have \[ \tan^2y + 1 = \sec^2y \] 
+Making this substitution gives
+\begin{align*}
+\frac{dy}{dx} &= \frac{1}{\sec^2y} \\
+&= \frac{1}{\tan^2y + 1} \\
+&= \frac{1}{x^2+1}. 
+\end{align*}
+\end{examplebox}
+
+\subsection{Operators in other contexts}
+Besides being useful in computing derivatives of exotic functions, operators (especially the logarithm) can also be useful in computing limits. The method is similar to the above method for derivatives.
+\bigbreak
+\textbf{Example} Show that \[ \lim_{x \rightarrow \infty} \left(1+\frac{a}{x}\right)^x = e^a. \]
+This is a common limit which will come up again in the course.
+\begin{examplebox}
+Let $y$ be the function given by \[ y = \left(1+\frac{a}{x}\right)^x. \]
+Take the logarithm of both sides, and use the power property of logarithms to see
+\begin{align*}
+\ln y &= \ln \left(1+\frac{a}{x}\right)^x \\
+&= x \ln \left(1+\frac{a}{x}\right).
+\end{align*}
+
+Now, taking the limit of both sides gives
+\begin{align*}
+\lim_{x \rightarrow \infty} \ln y &= \lim_{x \rightarrow \infty} x \ln \left(1+\frac{a}{x}\right).
+\end{align*}
+
+Now, since $x \rightarrow \infty$, we have that $\frac{a}{x}$ is small, and so we can use our Taylor series for $\ln(1+x)$, which gives us that
+\begin{align*}
+\lim_{x \rightarrow \infty} \ln y &= \lim_{x \rightarrow \infty} x \ln\left(1+\frac{a}{x}\right) \\
+&= \lim_{x \rightarrow \infty} x \left(\frac{a}{x} + O\left(\frac{1}{x^2}\right) \right) \\
+&= \lim_{x \rightarrow \infty} a + O \left(\frac{1}{x}\right) \\
+&= a.
+\end{align*}
+
+Recall from our \hyperref[ChFunctionsSecLimitsSubsecRulesForLimits]{limit rules} that the order of the logarithm and the limit can be switched since the logarithm is a continuous function. Thus \[ \ln \left(\lim_{x \rightarrow \infty} y \right) = a. \]
+So, exponentiating both sides, we have that \[ \lim_{x\rightarrow \infty} y = e^a, \] as desired.	
+\end{examplebox}
+
+\subsection{Infinite Power Tower}
+Consider the infinite power tower \[ y = x^{x^{x^{x^{\dotsb}}}}. \]
+
+That is, $x$ raised to the $x$ raised to the $x$ etc. This is certainly an unusual function. A better way to define this function is implicitly: \[ y = x^y. \]
+
+To see that this makes intuitive sense, note that the exponent of the first $x$ in the infinite tower is itself an infinite tower, so replacing the exponent of $x$ with $y$ is sensible.
+
+Use logarithmic differentiation to find the derivative of this function (that is, $\frac{dy}{dx}$).
+\begin{examplebox}
+First, taking the logarithm gives \[ \ln y = y \ln x. \]
+Now, differentiating the equation (implicitly) gives \[ \frac{dy}{y} = \ln x \, dy + y \frac{dx}{x} \]
+Factoring and solving for $\frac{dy}{dx}$ gives
+\begin{align*}
+\left(\frac{1}{y} - \ln x\right)dy &= y \frac{dx}{x} \\
+\frac{dy}{dx} &= \frac{y}{x \left(1/y-\ln x\right)} \\
+&= \frac{y^2}{x (1- y \ln x)}. 
+\end{align*}
+This shows that although a function may be difficult to understand, it can nevertheless be fairly easy to find its derivative.	
+\end{examplebox}
+
+It turns out that this function is well-defined and differentiable on \[ e^{-e} < x < e^{1/e} \]
+
+One can check that the $(x,y)$ pairs $(e^{-e},e^{-1}),(1,1),(\sqrt{2},2),(e^{1/e},e)$ all satisfy the above implicit equation.
+	
+\subsection{Exercises}				
+\begin{itemize}
+\item Find the derivative of $f(x) = (\ln x)^x$
+\item Find the derivative of $f(x) = x^{\ln x}$
+\item Compute $ \displaystyle \lim_{x \to +\infty} \left( \frac{x+2}{x+3} \right)^{2x} $
+\item Compute $ \displaystyle \lim_{x \to 0^+} \left[ \ln(1+x) \right]^{x} $
+\item Compute $ \displaystyle \lim_{x \to 0} \left(1 + \arctan\frac{x}{2} \right)^{2/x} $
+\item Compute $ \displaystyle \lim_{x \to 0^+} \left(\frac{2}{x}\right)^{\sin x} $
+\item Let \[ \alpha =1 + \frac{2}{2+ \frac{2}{2+ \frac{2}{2+\cdots}}} \] What is the value of $\alpha$?
+\item Let \[ \varphi = \sqrt{1+\sqrt{1+\sqrt{1+\sqrt{1+\sqrt{1+\cdots}}}}}\] What is the value of $\varphi$?
+\end{itemize}
 
 \chapter{Integration} \label{ChIntegration}
 \section{Antidifferentiation} \label{ChIntegrationSecAntidifferentiation}
 \section{Exponential growth examples} \label{ChIntegrationSecExponentialGrowthExamples}
 \section{More differential equations} \label{ChIntegrationSecMoreDifferentialEquations}
+\subsection{Separable differential equations} \label{ChIntegrationSecMoreDifferentialEquationsSubsecSeparableDifferentialEquations}
 \section{ODE Linearization} \label{ChIntegrationSecODELinearization}
 \section{Integration by Substitution} \label{ChIntegrationSecIntegrationBySubstitution}
 \section{Integration by parts} \label{ChIntegrationSecIntegrationByParts}
