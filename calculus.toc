@@ -91,19 +91,21 @@
 \contentsline {subsection}{\numberline {2.7.5}Exercises}{91}{subsection.2.7.5}
 \contentsline {chapter}{\numberline {3}Integration}{93}{chapter.3}
 \contentsline {section}{\numberline {3.1}Antidifferentiation}{93}{section.3.1}
-\contentsline {section}{\numberline {3.2}Exponential growth examples}{93}{section.3.2}
-\contentsline {section}{\numberline {3.3}More differential equations}{93}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Separable differential equations}{93}{subsection.3.3.1}
-\contentsline {section}{\numberline {3.4}ODE Linearization}{93}{section.3.4}
-\contentsline {section}{\numberline {3.5}Integration by Substitution}{93}{section.3.5}
-\contentsline {section}{\numberline {3.6}Integration by parts}{93}{section.3.6}
-\contentsline {section}{\numberline {3.7}Trigonometric substitution}{93}{section.3.7}
-\contentsline {section}{\numberline {3.8}Partial fractions}{93}{section.3.8}
-\contentsline {section}{\numberline {3.9}Definite integrals}{93}{section.3.9}
-\contentsline {section}{\numberline {3.10}Fundamental Theorem of Integral Calculus}{93}{section.3.10}
-\contentsline {section}{\numberline {3.11}Improper integrals}{93}{section.3.11}
-\contentsline {section}{\numberline {3.12}Trigonometric integrals}{93}{section.3.12}
-\contentsline {section}{\numberline {3.13}Tables and computers}{93}{section.3.13}
-\contentsline {chapter}{\numberline {4}Applications}{95}{chapter.4}
-\contentsline {chapter}{\numberline {5}Discretization}{97}{chapter.5}
-\contentsline {section}{\numberline {5.1}Series}{97}{section.5.1}
+\contentsline {subsection}{\numberline {3.1.1}Differential equations}{93}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Exercises}{97}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Exponential growth examples}{97}{section.3.2}
+\contentsline {section}{\numberline {3.3}More differential equations}{98}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Separable differential equations}{98}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}ODE Linearization}{98}{section.3.4}
+\contentsline {section}{\numberline {3.5}Integration by Substitution}{98}{section.3.5}
+\contentsline {section}{\numberline {3.6}Integration by parts}{98}{section.3.6}
+\contentsline {section}{\numberline {3.7}Trigonometric substitution}{98}{section.3.7}
+\contentsline {section}{\numberline {3.8}Partial fractions}{98}{section.3.8}
+\contentsline {section}{\numberline {3.9}Definite integrals}{98}{section.3.9}
+\contentsline {section}{\numberline {3.10}Fundamental Theorem of Integral Calculus}{98}{section.3.10}
+\contentsline {section}{\numberline {3.11}Improper integrals}{98}{section.3.11}
+\contentsline {section}{\numberline {3.12}Trigonometric integrals}{98}{section.3.12}
+\contentsline {section}{\numberline {3.13}Tables and computers}{98}{section.3.13}
+\contentsline {chapter}{\numberline {4}Applications}{99}{chapter.4}
+\contentsline {chapter}{\numberline {5}Discretization}{101}{chapter.5}
+\contentsline {section}{\numberline {5.1}Series}{101}{section.5.1}
